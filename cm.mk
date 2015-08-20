@@ -2,7 +2,7 @@
 PRODUCT_RELEASE_NAME := kylin_mb976a9
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)]
+$(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 DEVICE_PACKAGE_OVERLAYS += device/onda/v989/overlay
 
