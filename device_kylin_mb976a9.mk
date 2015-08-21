@@ -233,3 +233,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 $(call inherit-product-if-exists, device/ONDA/kylin_mb976a9/modules/modules.mk)
 
+ADDITIONAL_DEFAULT_PROPERTIES += \
+    ro.adb.secure=0 \
+    ro.secure=0
+
