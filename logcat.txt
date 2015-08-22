@@ -1,0 +1,116 @@
+--------- beginning of /dev/log/main
+E/        ( 1517): int aw_device_open(const hw_module_t*, const char*, hw_device_t**):AW keymaster open sucessfully!
+I/SurfaceFlinger( 1512): SurfaceFlinger is starting
+I/SurfaceFlinger( 1512): SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+I/DEBUG   ( 1510): debuggerd: Aug 21 2015 14:03:45
+I/installd( 1516): installd firing up
+--------- beginning of /dev/log/system
+I/Vold    ( 1507): Vold 2.1 (the revenge) firing up
+D/Vold    ( 1507): Volume sdcard state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    ( 1507): Volume sdcard state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    ( 1507): Volume extsd state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    ( 1507): Volume extsd state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    ( 1507): Volume usbhost state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    ( 1507): Volume usbhost state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    ( 1507): Volume usbhost state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    ( 1507): Volume usbhost state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    ( 1507): Volume usbhost state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    ( 1507): Volume sdcard state changing 0 (No-Media) -> 1 (Idle-Unmounted)
+D/Vold    ( 1507): Volume sdcard state changing 1 (Idle-Unmounted) -> 2 (Pending)
+D/DirectVolume( 1507): DirectVolume::handlePartitionAdded -> MAJOR 179, MINOR 1, PARTN 1
+D/DirectVolume( 1507): DirectVolume::handlePartitionAdded -> MAJOR 179, MINOR 2, PARTN 2
+D/DirectVolume( 1507): DirectVolume::handlePartitionAdded -> MAJOR 179, MINOR 3, PARTN 3
+D/DirectVolume( 1507): DirectVolume::handlePartitionAdded -> MAJOR 179, MINOR 5, PARTN 5
+D/DirectVolume( 1507): DirectVolume::handlePartitionAdded -> MAJOR 179, MINOR 6, PARTN 6
+D/DirectVolume( 1507): DirectVolume::handlePartitionAdded -> MAJOR 179, MINOR 7, PARTN 7
+D/DirectVolume( 1507): DirectVolume::handlePartitionAdded -> MAJOR 179, MINOR 8, PARTN 8
+D/DirectVolume( 1507): DirectVolume::handlePartitionAdded -> MAJOR 179, MINOR 9, PARTN 9
+D/Vold    ( 1507): Volume sdcard state changing 2 (Pending) -> 1 (Idle-Unmounted)
+D/DirectVolume( 1507): DirectVolume::handlePartitionAdded -> MAJOR 179, MINOR 10, PARTN 10
+W/Vold    ( 1507): Volume sdcard: Duplicate state (1)
+D/DirectVolume( 1507): DirectVolume::handlePartitionAdded -> MAJOR 179, MINOR 11, PARTN 11
+W/Vold    ( 1507): Volume sdcard: Duplicate state (1)
+D/DirectVolume( 1507): DirectVolume::handlePartitionAdded -> MAJOR 179, MINOR 12, PARTN 12
+W/Vold    ( 1507): Volume sdcard: Duplicate state (1)
+D/DirectVolume( 1507): DirectVolume::handlePartitionAdded -> MAJOR 179, MINOR 13, PARTN 13
+W/Vold    ( 1507): Volume sdcard: Duplicate state (1)
+D/Vold    ( 1507): Volume extsd state changing 0 (No-Media) -> 2 (Pending)
+D/DirectVolume( 1507): DirectVolume::handlePartitionAdded -> MAJOR 179, MINOR 49, PARTN 1
+D/Vold    ( 1507): Volume extsd state changing 2 (Pending) -> 1 (Idle-Unmounted)
+D/libEGL  ( 1512): loaded /vendor/lib/egl/libEGL_POWERVR_ROGUE.so
+I/Netd    ( 1509): Netd 1.0 starting
+W/InterfaceController( 1509): Warning (dlopen failed: library "/system/lib/libnetcmdiface.so" not found) while opening the net interface command library
+D/libEGL  ( 1512): loaded /vendor/lib/egl/libGLESv1_CM_POWERVR_ROGUE.so
+E/IMGSRV  ( 1512): :0: OGLES3LIBNAME is /system/vendor/lib/egl/libGLESv2_POWERVR_ROGUE.so
+D/libEGL  ( 1512): loaded /vendor/lib/egl/libGLESv2_POWERVR_ROGUE.so
+I/SurfaceFlinger( 1512): Using composer version 1.1
+I/SurfaceFlinger( 1512): EGL informations:
+I/SurfaceFlinger( 1512): vendor    : Android
+I/SurfaceFlinger( 1512): version   : 1.4 Android META-EGL
+I/SurfaceFlinger( 1512): extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_EXT_create_context_robustness EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable 
+I/SurfaceFlinger( 1512): Client API: OpenGL_ES
+I/SurfaceFlinger( 1512): EGLSurface: 8-8-8-8, config=0xf
+I/SurfaceFlinger( 1512): OpenGL ES informations:
+I/SurfaceFlinger( 1512): vendor    : Imagination Technologies
+I/SurfaceFlinger( 1512): renderer  : PowerVR Rogue G6230
+I/SurfaceFlinger( 1512): version   : OpenGL ES 3.1 build 1.4@3234138
+I/SurfaceFlinger( 1512): extensions: GL_EXT_debug_marker GL_EXT_blend_minmax GL_EXT_color_buffer_float GL_EXT_discard_framebuffer GL_EXT_draw_buffers GL_EXT_multi_draw_arrays GL_EXT_multisampled_render_to_texture GL_EXT_occlusion_query_boolean GL_EXT_robustness GL_EXT_separate_shader_objects GL_EXT_shader_framebuffer_fetch GL_EXT_shader_texture_lod GL_EXT_texture_filter_anisotropic GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_sRGB_decode GL_IMG_multisampled_render_to_texture GL_IMG_program_binary GL_IMG_read_format GL_IMG_shader_binary GL_IMG_texture_compression_pvrtc GL_IMG_texture_compression_pvrtc2 GL_IMG_texture_format_BGRA8888 GL_IMG_texture_npot GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_KHR_debug GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth24 GL_OES_depth_texture GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_element_index_uint GL_OES_fragment_precision_high GL_OES_get_program_binary GL_OES_mapbuffer GL_OES_packed_depth_stencil GL_OES_required_internalfo
+I/SurfaceFlinger( 1512): GL_MAX_TEXTURE_SIZE = 8192
+I/SurfaceFlinger( 1512): GL_MAX_VIEWPORT_DIMS = 8192
+E/cutils-trace( 1512): Error opening trace file: Permission denied (13)
+D/SurfaceFlinger( 1512): Screen acquired, type=0 flinger=0xb7500450
+E/hwcomposer( 1512): Assigned framebuffer target layer failed when forceSoftwareRendering!
+D/libEGL  ( 1603): loaded /vendor/lib/egl/libEGL_POWERVR_ROGUE.so
+D/libEGL  ( 1603): loaded /vendor/lib/egl/libGLESv1_CM_POWERVR_ROGUE.so
+E/IMGSRV  ( 1603): :0: OGLES3LIBNAME is /system/vendor/lib/egl/libGLESv2_POWERVR_ROGUE.so
+D/libEGL  ( 1603): loaded /vendor/lib/egl/libGLESv2_POWERVR_ROGUE.so
+I/Netd    ( 1695): Netd 1.0 starting
+W/InterfaceController( 1695): Warning (dlopen failed: library "/system/lib/libnetcmdiface.so" not found) while opening the net interface command library
+I/Netd    ( 1709): Netd 1.0 starting
+W/InterfaceController( 1709): Warning (dlopen failed: library "/system/lib/libnetcmdiface.so" not found) while opening the net interface command library
+I/Netd    ( 1725): Netd 1.0 starting
+W/InterfaceController( 1725): Warning (dlopen failed: library "/system/lib/libnetcmdiface.so" not found) while opening the net interface command library
+I/Netd    ( 1742): Netd 1.0 starting
+W/InterfaceController( 1742): Warning (dlopen failed: library "/system/lib/libnetcmdiface.so" not found) while opening the net interface command library
+I/Netd    ( 1758): Netd 1.0 starting
+W/InterfaceController( 1758): Warning (dlopen failed: library "/system/lib/libnetcmdiface.so" not found) while opening the net interface command library
+I/Netd    ( 1774): Netd 1.0 starting
+W/InterfaceController( 1774): Warning (dlopen failed: library "/system/lib/libnetcmdiface.so" not found) while opening the net interface command library
+I/Netd    ( 1790): Netd 1.0 starting
+W/InterfaceController( 1790): Warning (dlopen failed: library "/system/lib/libnetcmdiface.so" not found) while opening the net interface command library
+I/Netd    ( 1806): Netd 1.0 starting
+W/InterfaceController( 1806): Warning (dlopen failed: library "/system/lib/libnetcmdiface.so" not found) while opening the net interface command library
+I/Netd    ( 1822): Netd 1.0 starting
+W/InterfaceController( 1822): Warning (dlopen failed: library "/system/lib/libnetcmdiface.so" not found) while opening the net interface command library
+I/Netd    ( 1838): Netd 1.0 starting
+W/InterfaceController( 1838): Warning (dlopen failed: library "/system/lib/libnetcmdiface.so" not found) while opening the net interface command library
+I/Netd    ( 1854): Netd 1.0 starting
+W/InterfaceController( 1854): Warning (dlopen failed: library "/system/lib/libnetcmdiface.so" not found) while opening the net interface command library
+I/Netd    ( 1870): Netd 1.0 starting
+W/InterfaceController( 1870): Warning (dlopen failed: library "/system/lib/libnetcmdiface.so" not found) while opening the net interface command library
+I/Netd    ( 1886): Netd 1.0 starting
+W/InterfaceController( 1886): Warning (dlopen failed: library "/system/lib/libnetcmdiface.so" not found) while opening the net interface command library
+I/Netd    ( 1900): Netd 1.0 starting
+W/InterfaceController( 1900): Warning (dlopen failed: library "/system/lib/libnetcmdiface.so" not found) while opening the net interface command library
+I/Netd    ( 1917): Netd 1.0 starting
+W/InterfaceController( 1917): Warning (dlopen failed: library "/system/lib/libnetcmdiface.so" not found) while opening the net interface command library
+I/Netd    ( 1933): Netd 1.0 starting
+W/InterfaceController( 1933): Warning (dlopen failed: library "/system/lib/libnetcmdiface.so" not found) while opening the net interface command library
+I/Netd    ( 1949): Netd 1.0 starting
+W/InterfaceController( 1949): Warning (dlopen failed: library "/system/lib/libnetcmdiface.so" not found) while opening the net interface command library
+I/Netd    ( 1965): Netd 1.0 starting
+W/InterfaceController( 1965): Warning (dlopen failed: library "/system/lib/libnetcmdiface.so" not found) while opening the net interface command library
+I/Netd    ( 1981): Netd 1.0 starting
+W/InterfaceController( 1981): Warning (dlopen failed: library "/system/lib/libnetcmdiface.so" not found) while opening the net interface command library
+I/Netd    ( 2008): Netd 1.0 starting
+W/InterfaceController( 2008): Warning (dlopen failed: library "/system/lib/libnetcmdiface.so" not found) while opening the net interface command library
+I/Netd    ( 2024): Netd 1.0 starting
+W/InterfaceController( 2024): Warning (dlopen failed: library "/system/lib/libnetcmdiface.so" not found) while opening the net interface command library
+I/Netd    ( 2040): Netd 1.0 starting
+W/InterfaceController( 2040): Warning (dlopen failed: library "/system/lib/libnetcmdiface.so" not found) while opening the net interface command library
+I/Netd    ( 2056): Netd 1.0 starting
+W/InterfaceController( 2056): Warning (dlopen failed: library "/system/lib/libnetcmdiface.so" not found) while opening the net interface command library
+I/Netd    ( 2072): Netd 1.0 starting
+W/InterfaceController( 2072): Warning (dlopen failed: library "/system/lib/libnetcmdiface.so" not found) while opening the net interface command library
+I/Netd    ( 2088): Netd 1.0 starting
+W/InterfaceController( 2088): Warning (dlopen failed: library "/system/lib/libnetcmdiface.so" not found) while opening the net interface command library
