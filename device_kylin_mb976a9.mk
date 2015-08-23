@@ -204,8 +204,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.usb.config=mtp,adb \
-    ro.udisk.lable=ONDA_MID \
-    ro.adb.secure=0
+    ro.udisk.lable=ONDA_MID 
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.property.tabletUI=false \
