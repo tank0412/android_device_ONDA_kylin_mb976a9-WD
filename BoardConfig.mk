@@ -36,7 +36,7 @@ BOARD_HAS_LARGE_FILESYSTEM := true
 BOARD_HAS_SDCARD_INTERNAL := true
 TARGET_USERIMAGES_USE_EXT4 := true
 
-TARGET_KERNEL_SOURCE := kernel/ONDA/kylin_mb976a9/linux-3.4
+TARGET_KERNEL_SOURCE := kernel/ONDA/kylin_mb976a9
 TARGET_KERNEL_CONFIG := sun9iw1p1smp_android_defconfig
 
 TARGET_PREBUILT_KERNEL := device/ONDA/kylin_mb976a9/kernel
