@@ -1,0 +1,1487 @@
+--------- beginning of /dev/log/main
+I/installd( 1515): installd firing up
+I/DEBUG   ( 1509): debuggerd: Jan  8 2015 15:43:31
+--------- beginning of /dev/log/system
+I/Vold    ( 1506): Vold 2.1 (the revenge) firing up
+D/Vold    ( 1506): Volume sdcard state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    ( 1506): Volume extsd state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    ( 1506): Volume usbhost state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    ( 1506): Volume sdcard state changing 0 (No-Media) -> 1 (Idle-Unmounted)
+W/Vold    ( 1506): Duplicate state (1)
+D/Vold    ( 1506): Volume sdcard state changing 1 (Idle-Unmounted) -> 2 (Pending)
+D/Vold    ( 1506): Volume sdcard state changing 2 (Pending) -> 1 (Idle-Unmounted)
+W/Vold    ( 1506): Duplicate state (1)
+W/Vold    ( 1506): Duplicate state (1)
+W/Vold    ( 1506): Duplicate state (1)
+W/Vold    ( 1506): Duplicate state (1)
+W/Vold    ( 1506): Duplicate state (1)
+D/Vold    ( 1506): Volume extsd state changing 0 (No-Media) -> 2 (Pending)
+D/Vold    ( 1506): Volume extsd state changing 2 (Pending) -> 1 (Idle-Unmounted)
+I/Netd    ( 1508): Netd 1.0 starting
+W/InterfaceController( 1508): Warning (dlopen failed: library "/system/lib/libnetcmdiface.so" not found) while opening the net interface command library
+E/        ( 1517): int aw_device_open(const hw_module_t*, const char*, hw_device_t**):AW keymaster open sucessfully!
+I/SurfaceFlinger( 1511): SurfaceFlinger is starting
+I/SurfaceFlinger( 1511): SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+D/libEGL  ( 1511): loaded /vendor/lib/egl/libEGL_POWERVR_ROGUE.so
+D/libEGL  ( 1511): loaded /vendor/lib/egl/libGLESv1_CM_POWERVR_ROGUE.so
+E/IMGSRV  ( 1511): :0: OGLES3LIBNAME is /system/vendor/lib/egl/libGLESv2_POWERVR_ROGUE.so
+I/mediaserver( 1514): ServiceManager: 0xb7f11508
+I/AudioFlinger( 1514): Using default 3000 mSec as standby time.
+I/CameraService( 1514): CameraService started (pid=1514)
+D/HALCameraFactory( 1514): camera hal version: 3000130327_V1.0
+I/CameraService( 1514): Loaded "V4L2Camera Module" camera module
+D/HALCameraFactory( 1514): There is 2 attached cameras and 0 removable cameras
+I/AudioPolicyManagerBase( 1514): loadAudioPolicyConfig() loaded /system/etc/audio_policy.conf
+D/audio_hw_primary( 1514): line:655,select_output_device,adev->mode:0, AUDIO_MODE_RINGTONE:1, AUDIO_MODE_NORMAL:0
+V/audio_hw_primary( 1514): huangxin------normal mode, ****LINE:657,FUNC:select_output_device, adev->out_device:2
+V/audio_hw_primary( 1514): normal mode , speaker,****LINE:659,FUNC:select_output_device
+D/audio_hw_primary( 1514): line:2516,func:adev_open
+D/codec_audio( 1514): PROPERTY_VALUE_MAX:92,get ro.sw.audio.codec_plan_name =0
+D/codec_audio( 1514): get index =0
+V/codec_audio_pad( 1514): ****LINE:196,FUNC:pad_init
+D/codec_audio( 1514): key_name:PHONE_EARPIECE 
+D/codec_audio( 1514): key_name:PHONE_HEADSET 
+D/codec_audio( 1514): key_name:PHONE_SPEAKER 
+D/codec_audio( 1514): key_name:BLUETOOTH_UP 
+D/codec_audio( 1514): key_name:FM_HEADSET 
+D/codec_audio( 1514): key_name:FM_SPEAKER 
+D/codec_audio( 1514): get_volume_config pcm_vol: 8
+D/bp_audio( 1514): get ro.sw.audio.bp_device_name=0
+D/bp_audio( 1514): bp_device_detect index=0
+D/audio_hw_primary( 1514): PROPERTY_VALUE_MAX:92,get ro.sw.audio.codec_plan_name =0
+E/audio_hw_primary( 1514): OK:  ****LINE:2541,FUNC:adev_open
+V/audio_hw_primary( 1514): adev_get_master_volume, line: 2257
+V/audio_hw_primary( 1514): adev_set_master_volume, line: 2251
+I/AudioFlinger( 1514): loadHwModule() Loaded primary audio interface from sunxi audio HW HAL (audio) handle 1
+V/audio_hw_primary( 1514): adev_open_output_stream, flags: 2
+V/audio_hw_primary( 1514): +++++++++++++++ adev_open_output_stream: req_sample_rate: 44100, fmt: 1, channel_count: 3
+I/AudioFlinger( 1514): HAL output buffer size 2048 frames, normal mix buffer size 2048 frames
+I/AudioMixer( 1514): found effect "Multichannel Downmix To Stereo" from The Android Open Source Project
+I/AudioFlinger( 1514): Using module 1 has the primary audio interface
+I/AudioFlinger( 1514): AudioFlinger's thread 0xb4ca3008 ready to run
+W/AudioFlinger( 1514): Thread AudioOut_2 cannot connect to the power manager service
+D/audio_hw_primary( 1514): out_standby
+W/AudioFlinger( 1514): Thread AudioOut_2 cannot connect to the power manager service
+V/audio_hw_primary( 1514): out_set_parameters: routing=2
+V/audio_hw_primary( 1514): >>>>>>>> adev->out_device is: 2, val is : 2
+W/AudioFlinger( 1514): Thread AudioOut_2 cannot connect to the power manager service
+E/AudioFlinger( 1514): no wake lock to update!
+V/audio_hw_primary( 1514): adev_set_voice_volume, volume: 1.000000
+I/audio_a2dp_hw( 1514): adev_open:  adev_open in A2dp_hw module
+I/AudioFlinger( 1514): loadHwModule() Loaded a2dp audio interface from A2DP Audio HW HAL (audio) handle 3
+I/AudioFlinger( 1514): loadHwModule() Loaded usb audio interface from USB audio HW HAL (audio) handle 4
+I/r_submix( 1514): adev_open(name=audio_hw_if)
+I/r_submix( 1514): adev_init_check()
+I/AudioFlinger( 1514): loadHwModule() Loaded r_submix audio interface from Wifi Display audio HAL (audio) handle 5
+I/AudioPolicyService( 1514): Loaded audio policy from LEGACY Audio Policy HAL (audio_policy)
+D/libEGL  ( 1511): loaded /vendor/lib/egl/libGLESv2_POWERVR_ROGUE.so
+I/SurfaceFlinger( 1511): Using composer version 1.1
+I/SurfaceFlinger( 1511): EGL informations:
+I/SurfaceFlinger( 1511): vendor    : Android
+I/SurfaceFlinger( 1511): version   : 1.4 Android META-EGL
+I/SurfaceFlinger( 1511): extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_EXT_create_context_robustness EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable 
+I/SurfaceFlinger( 1511): Client API: OpenGL_ES
+I/SurfaceFlinger( 1511): EGLSurface: 8-8-8-8, config=0xf
+I/SurfaceFlinger( 1511): OpenGL ES informations:
+I/SurfaceFlinger( 1511): vendor    : Imagination Technologies
+I/SurfaceFlinger( 1511): renderer  : PowerVR Rogue G6230
+I/SurfaceFlinger( 1511): version   : OpenGL ES 3.1 build 1.4@3234138
+I/SurfaceFlinger( 1511): extensions: GL_EXT_debug_marker GL_EXT_blend_minmax GL_EXT_color_buffer_float GL_EXT_discard_framebuffer GL_EXT_draw_buffers GL_EXT_multi_draw_arrays GL_EXT_multisampled_render_to_texture GL_EXT_occlusion_query_boolean GL_EXT_robustness GL_EXT_separate_shader_objects GL_EXT_shader_framebuffer_fetch GL_EXT_shader_texture_lod GL_EXT_texture_filter_anisotropic GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_sRGB_decode GL_IMG_multisampled_render_to_texture GL_IMG_program_binary GL_IMG_read_format GL_IMG_shader_binary GL_IMG_texture_compression_pvrtc GL_IMG_texture_compression_pvrtc2 GL_IMG_texture_format_BGRA8888 GL_IMG_texture_npot GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_KHR_debug GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth24 GL_OES_depth_texture GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_element_index_uint GL_OES_fragment_precision_high GL_OES_get_program_binary GL_OES_mapbuffer GL_OES_packed_depth_stencil GL_OES_required_internalfo
+I/SurfaceFlinger( 1511): GL_MAX_TEXTURE_SIZE = 8192
+I/SurfaceFlinger( 1511): GL_MAX_VIEWPORT_DIMS = 8192
+D/SurfaceFlinger( 1511): Screen acquired, type=0 flinger=0xb83db450
+E/hwcomposer( 1511): Assigned framebuffer target layer failed when forceSoftwareRendering!
+D/libEGL  ( 1805): loaded /vendor/lib/egl/libEGL_POWERVR_ROGUE.so
+D/libEGL  ( 1805): loaded /vendor/lib/egl/libGLESv1_CM_POWERVR_ROGUE.so
+E/IMGSRV  ( 1805): :0: OGLES3LIBNAME is /system/vendor/lib/egl/libGLESv2_POWERVR_ROGUE.so
+D/libEGL  ( 1805): loaded /vendor/lib/egl/libGLESv2_POWERVR_ROGUE.so
+V/NatController( 1508): runCmd(/system/bin/iptables -F natctrl_FORWARD) res=0
+V/NatController( 1508): runCmd(/system/bin/iptables -A natctrl_FORWARD -j DROP) res=0
+V/NatController( 1508): runCmd(/system/bin/iptables -t nat -F natctrl_nat_POSTROUTING) res=0
+V/NatController( 1508): runCmd(/system/bin/ip rule flush) res=0
+V/NatController( 1508): runCmd(/system/bin/ip -6 rule flush) res=0
+V/NatController( 1508): runCmd(/system/bin/ip rule add from all lookup default prio 32767) res=0
+V/NatController( 1508): runCmd(/system/bin/ip rule add from all lookup main prio 32766) res=0
+V/NatController( 1508): runCmd(/system/bin/ip -6 rule add from all lookup default prio 32767) res=0
+D/AndroidRuntime( 1512): 
+D/AndroidRuntime( 1512): >>>>>> AndroidRuntime START com.android.internal.os.ZygoteInit <<<<<<
+V/NatController( 1508): runCmd(/system/bin/ip -6 rule add from all lookup main prio 32766) res=0
+V/NatController( 1508): runCmd(/system/bin/ip route flush cache) res=0
+D/AndroidRuntime( 1512): CheckJNI is OFF
+V/NatController( 1508): runCmd(/system/bin/iptables -F natctrl_tether_counters) res=1
+V/NatController( 1508): runCmd(/system/bin/iptables -X natctrl_tether_counters) res=1
+V/NatController( 1508): runCmd(/system/bin/iptables -N natctrl_tether_counters) res=0
+D/dalvikvm( 1512): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 1512): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 1512): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 1512): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 1512): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/MDnsDS  ( 1508): MDnsSdListener::Hander starting up
+D/MDnsDS  ( 1508): MDnsSdListener starting to monitor
+D/MDnsDS  ( 1508): Going to poll with pollCount 1
+E/memtrack( 1512): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1512): failed to load memtrack module: -2
+I/SamplingProfilerIntegration( 1512): Profiling disabled.
+I/Zygote  ( 1512): Preloading classes...
+D/dalvikvm( 1512): Note: class Landroid/app/ActivityManagerNative; has 180 unimplemented (abstract) methods
+D/TextLayoutCache( 1512): Using debug level = 0 - Debug Enabled = 0
+I/dalvikvm( 1512): threadid=1: recursive native library load attempt (/system/lib/libmedia_jni.so)
+D/MtpDeviceJNI( 1512): register_android_mtp_MtpDevice
+I/dalvikvm( 1512): threadid=1: recursive native library load attempt (/system/lib/libmedia_jni.so)
+I/dalvikvm( 1512): threadid=1: recursive native library load attempt (/system/lib/libmedia_jni.so)
+I/dalvikvm( 1512): threadid=1: recursive native library load attempt (/system/lib/libmedia_jni.so)
+E/EmojiFactory_jni( 1512): Failed to load libemoji.so: dlopen failed: library "libemoji.so" not found
+I/LibraryLoader( 1512): loading: webviewchromium
+I/LibraryLoader( 1512): loaded: webviewchromium
+W/Zygote  ( 1512): Class not found for preloading: java.lang.UnsafeByteSequence
+I/System  ( 1512): Loaded time zone names for "" in 45ms (43ms in ICU)
+I/System  ( 1512): Loaded time zone names for "en_US" in 31ms (26ms in ICU)
+I/Zygote  ( 1512): ...preloaded 2777 classes in 2118ms.
+I/Zygote  ( 1512): Preloading resources...
+I/Zygote  ( 1512): ...preloaded 274 resources in 1497ms.
+I/Zygote  ( 1512): ...preloaded 31 resources in 8ms.
+I/dalvikvm( 1512): System server process 2015 has been created
+I/Zygote  ( 1512): Accepting command socket connections
+D/SensorService( 2015): nuSensorService starting...
+I/SystemServer( 2015): Entered the Android system server!
+D/Sensors ( 2015): insmodDevice end!
+E/Sensors ( 2015): HAL:Couldn't read compass mounting matrix
+V/Sensors ( 2015): HAL:in_use_auto_calibration, disable
+V/Sensors ( 2015): 
+I/MPL-storeload( 2015): Bytes read = 4340
+V/Sensors ( 2015): file size != 92(size=4340), not MA503 selftest cal bin
+I/MPL-storeload( 2015): Bytes read = 4340
+E/Sensors ( 2015): HAL:Error opening /sys/bus/iio/devices/iio:device0/in_magn_scale
+E/Sensors ( 2015): HAL:open of /sys/bus/iio/devices/iio:device0/compass_enable failed with 'No such file or directory' (2)
+I/SensorService( 2015): MPL Gyroscope
+I/SensorService( 2015): MPL Raw Gyroscope
+I/SensorService( 2015): MPL Accelerometer
+I/SensorService( 2015): MPL Orientation
+I/SensorService( 2015): MPL Rotation Vector
+I/SensorService( 2015): MPL Linear Acceleration
+I/SensorService( 2015): MPL Gravity
+D/SensorService( 2015): Max socket buffer size 131071
+D/SensorService( 2015): nuSensorService thread starting...
+I/SystemServer( 2015): Waiting for installd to be ready.
+I/installd( 1515): new connection
+I/Installer( 2015): connecting...
+I/SystemServer( 2015): Power Manager
+I/SystemServer( 2015): Activity Manager
+I/ActivityManager( 2015): Memory class: 192
+I/IntentFirewall( 2015): Read new rules (A:0 B:0 S:0)
+I/SystemServer( 2015): Display Manager
+I/SystemServer( 2015): Telephony Registry
+I/DisplayManagerService( 2015): Display device added: DisplayDeviceInfo{"Built-in Screen": 1536 x 2048, 60.000004 fps, density 320, 265.404 x 265.404 dpi, touch INTERNAL, rotation 0, type BUILT_IN, FLAG_DEFAULT_DISPLAY, FLAG_ROTATES_WITH_CONTENT, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS}
+I/SystemServer( 2015): Scheduling Policy
+I/SystemServer( 2015): Package Manager
+D/SELinuxMMAC( 2015): Couldn't find install policy /data/security/mac_permissions.xml
+D/SELinuxMMAC( 2015): Using install policy file /system/etc/security/mac_permissions.xml
+W/ResourceType( 2015): Failure getting entry for 0x7f050000 (t=4 e=0) in package 0 (error -75)
+W/PackageParser( 2015): No actions in intent filter at /system/app/Bluetooth.apk Binary XML file line #210
+W/PackageParser( 2015): No actions in intent filter at /system/app/Contacts.apk Binary XML file line #375
+D/PackageManager( 2015): No files in app dir /vendor/app
+W/ResourceType( 2015): Failure getting entry for 0x7f09011c (t=8 e=284) in package 0 (error -75)
+I/PackageManager( 2015): Time to scan packages: 3.824 seconds
+W/PackageManager( 2015): Not granting permission android.permission.CALL_PRIVILEGED to package com.android.contacts (protectionLevel=18 flags=0x48be45)
+W/PackageManager( 2015): Not granting permission android.permission.MODIFY_PHONE_STATE to package com.android.contacts (protectionLevel=18 flags=0x48be45)
+W/PackageManager( 2015): Not granting permission android.permission.ALLOW_ANY_CODEC_FOR_PLAYBACK to package com.android.contacts (protectionLevel=18 flags=0x48be45)
+W/PackageManager( 2015): Not granting permission android.permission.REBOOT to package com.android.contacts (protectionLevel=18 flags=0x48be45)
+W/PackageManager( 2015): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.google.android.onetimeinitializer
+W/PackageManager( 2015): Unknown permission com.android.launcher.permission.WRITE_SETTINGS in package com.google.android.onetimeinitializer
+W/PackageManager( 2015): Unknown permission com.android.launcher.permission.PRELOAD_WORKSPACE in package com.google.android.partnersetup
+W/PackageManager( 2015): Not granting permission android.permission.WRITE_MEDIA_STORAGE to package com.android.calculator2 (protectionLevel=18 flags=0x8be45)
+W/PackageManager( 2015): Not granting permission android.permission.WRITE_MEDIA_STORAGE to package com.jui.gallery3d (protectionLevel=18 flags=0x18bc45)
+W/PackageManager( 2015): Not granting permission android.permission.MOUNT_UNMOUNT_FILESYSTEMS to package com.jui.gallery3d (protectionLevel=18 flags=0x18bc45)
+W/PackageManager( 2015): Unknown permission com.android.vending.billing.IBillingAccountService.BIND2 in package com.google.android.gsf.login
+W/PackageManager( 2015): Unknown permission com.google.android.gallery3d.permission.GALLERY_PROVIDER in package com.android.bluetooth
+W/PackageManager( 2015): Unknown permission com.android.gallery3d.permission.GALLERY_PROVIDER in package com.android.bluetooth
+W/PackageManager( 2015): Unknown permission android.permission.MMS_SEND_OUTBOX_MSG in package com.android.bluetooth
+W/PackageManager( 2015): Unknown permission com.htc.launcher.permission.READ_SETTINGS in package com.teslacoilsw.launcher
+W/PackageManager( 2015): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.teslacoilsw.launcher
+W/PackageManager( 2015): Unknown permission com.cyanogenmod.trebuchet.permission.READ_SETTINGS in package com.teslacoilsw.launcher
+W/PackageManager( 2015): Unknown permission org.adw.launcher.permission.READ_SETTINGS in package com.teslacoilsw.launcher
+W/PackageManager( 2015): Unknown permission org.adwfreak.launcher.permission.READ_SETTINGS in package com.teslacoilsw.launcher
+W/PackageManager( 2015): Unknown permission com.anddoes.launcher.permission.READ_SETTINGS in package com.teslacoilsw.launcher
+W/PackageManager( 2015): Unknown permission com.google.android.launcher.permission.READ_SETTINGS in package com.teslacoilsw.launcher
+W/PackageManager( 2015): Unknown permission android.permission.READ_MEDIA_STORAGE in package com.android.awgallery
+W/PackageManager( 2015): Not granting permission android.permission.WRITE_MEDIA_STORAGE to package com.android.awgallery (protectionLevel=18 flags=0x8bc45)
+W/PackageManager( 2015): Not granting permission android.permission.SET_ANIMATION_SCALE to package com.android.awgallery (protectionLevel=50 flags=0x8bc45)
+W/PackageManager( 2015): Not granting permission android.permission.MOUNT_UNMOUNT_FILESYSTEMS to package com.android.awgallery (protectionLevel=18 flags=0x8bc45)
+W/PackageManager( 2015): Not granting permission android.permission.ACCESS_DOWNLOAD_MANAGER to package com.android.browser (protectionLevel=18 flags=0x9be45)
+W/PackageManager( 2015): Not granting permission android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS to package com.android.browser (protectionLevel=2 flags=0x9be45)
+W/PackageManager( 2015): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.android.onetimeinitializer
+W/PackageManager( 2015): Unknown permission com.android.launcher.permission.WRITE_SETTINGS in package com.android.onetimeinitializer
+W/PackageManager( 2015): Not granting permission android.permission.BROADCAST_PACKAGE_REMOVED to package com.google.android.marvin.talkback (protectionLevel=2 flags=0x49be45)
+W/PackageManager( 2015): Unknown permission com.google.android.gallery3d.permission.PICASA_STORE in package com.android.dreams.phototable
+W/PackageManager( 2015): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.android.settings
+W/PackageManager( 2015): Unknown permission com.android.launcher.permission.WRITE_SETTINGS in package com.android.settings
+W/PackageManager( 2015): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.google.android.googlequicksearchbox
+W/PackageManager( 2015): Unknown permission com.android.launcher.permission.WRITE_SETTINGS in package com.google.android.googlequicksearchbox
+W/PackageManager( 2015): Unknown permission com.google.android.voicesearch.SHORTCUTS_ACCESS in package com.google.android.googlequicksearchbox
+W/PackageManager( 2015): Unknown permission com.google.android.voicesearch.ACCESS_SETTINGS in package com.google.android.googlequicksearchbox
+W/PackageManager( 2015): Unknown permission com.google.android.ears.permission.WRITE in package com.google.android.googlequicksearchbox
+W/PackageManager( 2015): Unknown permission com.google.android.apps.googlevoice.permission.AUTO_SEND in package com.google.android.googlequicksearchbox
+W/PackageManager( 2015): Unknown permission com.google.android.gm.permission.AUTO_SEND in package com.google.android.googlequicksearchbox
+W/PackageManager( 2015): Not granting permission android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS to package com.android.vending (protectionLevel=2 flags=0x400abe45)
+W/PackageManager( 2015): Unknown permission android.permission.SEND_SMS_NO_CONFIRMATION in package com.android.vending
+W/PackageManager( 2015): Not granting permission android.permission.READ_LOGS to package com.softwinner.fireplayer (protectionLevel=50 flags=0x8be45)
+W/PackageManager( 2015): Not granting permission android.permission.INSTALL_PACKAGES to package com.softwinner.fireplayer (protectionLevel=18 flags=0x8be45)
+W/PackageManager( 2015): Unknown permission android.permission.USES_POLICY_FORCE_LOCK in package com.android.systemui
+W/PackageManager( 2015): Not granting permission android.permission.INSTALL_PACKAGES to package com.jianui.filemanager (protectionLevel=18 flags=0x8be45)
+W/PackageManager( 2015): Not granting permission android.permission.DELETE_PACKAGES to package com.jianui.filemanager (protectionLevel=18 flags=0x8be45)
+W/PackageManager( 2015): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.jianui.filemanager
+W/PackageManager( 2015): Unknown permission com.android.launcher.permission.WRITE_SETTINGS in package com.jianui.filemanager
+W/PackageManager( 2015): Not granting permission android.permission.MOUNT_UNMOUNT_FILESYSTEMS to package com.jianui.filemanager (protectionLevel=18 flags=0x8be45)
+W/PackageManager( 2015): Not granting permission android.permission.ACCOUNT_MANAGER to package com.jianui.filemanager (protectionLevel=2 flags=0x8be45)
+W/PackageManager( 2015): Not granting permission android.permission.WRITE_MEDIA_STORAGE to package com.estrongs.android.pop (protectionLevel=18 flags=0x48be44)
+W/PackageManager( 2015): Unknown permission .PERMISSION in package com.estrongs.android.pop
+W/PackageManager( 2015): Not granting permission android.permission.REBOOT to package eu.chainfire.supersu (protectionLevel=18 flags=0x83e05)
+W/PackageManager( 2015): Not granting permission android.permission.DEVICE_POWER to package com.android.deskclock (protectionLevel=2 flags=0x8be45)
+W/PackageManager( 2015): Not granting permission android.permission.READ_DREAM_STATE to package com.google.android.gsf (protectionLevel=2 flags=0x40083e45)
+W/PackageManager( 2015): Unknown permission com.chrome.permission.DEVICE_EXTRAS in package com.android.chrome
+W/PackageManager( 2015): Unknown permission com.sec.enterprise.knox.MDM_CONTENT_PROVIDER in package com.android.chrome
+I/SystemServer( 2015): Entropy Mixer
+I/EntropyMixer( 2015): Writing entropy...
+I/SystemServer( 2015): User Service
+I/SystemServer( 2015): Account Manager
+I/SystemServer( 2015): Content Manager
+I/SystemServer( 2015): System Content Providers
+I/SystemServer( 2015): Lights Service
+I/SystemServer( 2015): Battery Service
+I/DynamicPManagerService( 2015): register boot completed receiver
+E/ConsumerIrService( 2015): Can't open consumer IR HW Module, error: -2
+I/libsuspend( 2015): Selected early suspend
+I/libsuspend( 2015): Starting early suspend unblocker thread
+D/PermissionCache( 1511): checking android.permission.ACCESS_SURFACE_FLINGER for uid=1000 => granted (325 us)
+D/SurfaceFlinger( 1511): Screen acquired, type=0 flinger=0xb83db450
+D/SurfaceFlinger( 1511):  screen was previously acquired
+D/AlarmManagerService( 2015): Kernel timezone updated to 0 minutes west of GMT
+I/SystemServer( 2015): Dynamic Power Manager Service
+I/SystemServer( 2015): Vibrator Service
+I/SystemServer( 2015): Consumer IR Service
+I/SystemServer( 2015): Alarm Manager
+I/SystemServer( 2015): Init Watchdog
+I/SystemServer( 2015): Input Manager
+I/InputManager( 2015): Initializing input manager, mUseDevInputEventForAudioJack=false
+I/SystemServer( 2015): Window Manager
+I/WindowManager( 2015): No existing display settings /data/system/display_settings.xml; starting empty
+D/WindowManager( 2015): update Settings mBootFastEnable = false
+D/SensorManager( 2015): >>>>>>> set discard sensrtime =3
+D/EventHub( 2015): No input device configuration file found for device 'gt9xxnew_ts'.
+I/WindowManager( 2015): No keyguard interface!
+I/InputManager( 2015): Starting input manager
+I/SystemServer( 2015): Bluetooth Manager Service
+W/EventHub( 2015): Unable to disable kernel key repeat for /dev/input/event5: Function not implemented
+I/EventHub( 2015): New device: id=1, fd=97, path='/dev/input/event5', name='gt9xxnew_ts', classes=0x15, configuration='', keyLayout='/system/usr/keylayout/Generic.kl', keyCharacterMap='/system/usr/keychars/Generic.kcm', builtinKeyboard=false, usingSuspendBlockIoctl=true, usingClockIoctl=true
+D/EventHub( 2015): No input device configuration file found for device 'axp22-supplyer'.
+D/BluetoothManagerService( 2015): Loading stored name and address
+D/BluetoothManagerService( 2015): Stored bluetooth Name=V989 Core8,Address=22:22:54:08:5D:7D
+W/EventHub( 2015): Unable to disable kernel key repeat for /dev/input/event0: Function not implemented
+I/EventHub( 2015): New device: id=2, fd=98, path='/dev/input/event0', name='axp22-supplyer', classes=0x1, configuration='', keyLayout='/system/usr/keylayout/Generic.kl', keyCharacterMap='/system/usr/keychars/Generic.kcm', builtinKeyboard=false, usingSuspendBlockIoctl=true, usingClockIoctl=true
+D/EventHub( 2015): No input device configuration file found for device 'sunxi-ths'.
+D/System  ( 2015): -^__^- -^__^- -^__^- sys.start_shutdown 0
+I/SystemServer( 2015): Input Method Service
+W/InputMethodManagerService( 2015): Couldn't create dir.: /data/system/inputmethod
+D/SensorManager( 2015): discard gsensor data ...
+I/SystemServer( 2015): Accessibility Manager
+I/ActivityManager( 2015): Config changes=1df8 {1.0 ?mcc?mnc en_US ldltr sw768dp w768dp h1024dp 320dpi xlrg port ?uimode ?night -touch -keyb/v/h -nav/h s.2}
+I/ActivityManager( 2015): Config changes=400 {1.0 ?mcc?mnc en_US ldltr sw768dp w768dp h951dp 320dpi xlrg port ?uimode ?night -touch -keyb/v/h -nav/h s.3}
+I/SystemServer( 2015): Mount Service
+D/MountService( 2015): got storage path: /mnt/sdcard description: Internal storage primary: true removable: false emulated: false mtpReserve: 100 allowMassStorage: true maxFileSize: 0
+D/MountService( 2015): addVolumeLocked() StorageVolume:
+D/MountService( 2015):     mStorageId=0 mPath=/mnt/sdcard mDescriptionId=17040666 mPrimary=true 
+D/MountService( 2015):     mRemovable=false mEmulated=false mMtpReserveSpace=100 
+D/MountService( 2015):     mAllowMassStorage=true mMaxFileSize=0 mOwner=null mUuid=null 
+D/MountService( 2015):     mUserLabel=null mState=null 
+D/MountService( 2015): got storage path: /mnt/extsd description: SD card primary: false removable: true emulated: false mtpReserve: 0 allowMassStorage: true maxFileSize: 0
+D/MountService( 2015): addVolumeLocked() StorageVolume:
+D/MountService( 2015):     mStorageId=0 mPath=/mnt/extsd mDescriptionId=17040667 mPrimary=false 
+D/MountService( 2015):     mRemovable=true mEmulated=false mMtpReserveSpace=0 mAllowMassStorage=true 
+D/MountService( 2015):     mMaxFileSize=0 mOwner=null mUuid=null mUserLabel=null mState=null 
+D/MountService( 2015): got storage path: /mnt/usbhost description: USB storage primary: false removable: true emulated: false mtpReserve: 0 allowMassStorage: false maxFileSize: 0
+D/MountService( 2015): addVolumeLocked() StorageVolume:
+D/MountService( 2015):     mStorageId=0 mPath=/mnt/usbhost mDescriptionId=17040668 mPrimary=false 
+D/MountService( 2015):     mRemovable=true mEmulated=false mMtpReserveSpace=0 mAllowMassStorage=false 
+D/MountService( 2015):     mMaxFileSize=0 mOwner=null mUuid=null mUserLabel=null mState=null 
+D/SensorManager( 2015): discard gsensor data ...
+I/PackageManager( 2015): No secure containers on sdcard
+I/SystemServer( 2015): LockSettingsService
+I/SystemServer( 2015): Device Policy
+I/SystemServer( 2015): Status Bar
+I/SystemServer( 2015): Clipboard Service
+I/SystemServer( 2015): NetworkManagement Service
+W/MountService( 2015): Duplicate state transition (unmounted -> unmounted) for /mnt/sdcard
+W/MountService( 2015): Duplicate state transition (unmounted -> unmounted) for /mnt/extsd
+D/MountService( 2015): volume state changed for /mnt/usbhost (unmounted -> removed)
+W/MountService( 2015): getSecureContainerList() called when storage not mounted
+I/SystemServer( 2015): Text Service Manager Service
+W/PackageManager( 2015): Not granting permission android.permission.CALL_PRIVILEGED to package com.android.contacts (protectionLevel=18 flags=0x48be45)
+W/PackageManager( 2015): Not granting permission android.permission.MODIFY_PHONE_STATE to package com.android.contacts (protectionLevel=18 flags=0x48be45)
+W/PackageManager( 2015): Not granting permission android.permission.ALLOW_ANY_CODEC_FOR_PLAYBACK to package com.android.contacts (protectionLevel=18 flags=0x48be45)
+W/PackageManager( 2015): Not granting permission android.permission.REBOOT to package com.android.contacts (protectionLevel=18 flags=0x48be45)
+W/PackageManager( 2015): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.google.android.onetimeinitializer
+W/PackageManager( 2015): Unknown permission com.android.launcher.permission.WRITE_SETTINGS in package com.google.android.onetimeinitializer
+W/PackageManager( 2015): Unknown permission com.android.launcher.permission.PRELOAD_WORKSPACE in package com.google.android.partnersetup
+W/PackageManager( 2015): Not granting permission android.permission.WRITE_MEDIA_STORAGE to package com.android.calculator2 (protectionLevel=18 flags=0x8be45)
+W/PackageManager( 2015): Not granting permission android.permission.WRITE_MEDIA_STORAGE to package com.jui.gallery3d (protectionLevel=18 flags=0x18bc45)
+W/PackageManager( 2015): Not granting permission android.permission.MOUNT_UNMOUNT_FILESYSTEMS to package com.jui.gallery3d (protectionLevel=18 flags=0x18bc45)
+W/PackageManager( 2015): Unknown permission com.android.vending.billing.IBillingAccountService.BIND2 in package com.google.android.gsf.login
+W/PackageManager( 2015): Unknown permission com.google.android.gallery3d.permission.GALLERY_PROVIDER in package com.android.bluetooth
+W/PackageManager( 2015): Unknown permission com.android.gallery3d.permission.GALLERY_PROVIDER in package com.android.bluetooth
+W/PackageManager( 2015): Unknown permission android.permission.MMS_SEND_OUTBOX_MSG in package com.android.bluetooth
+W/PackageManager( 2015): Unknown permission com.htc.launcher.permission.READ_SETTINGS in package com.teslacoilsw.launcher
+W/PackageManager( 2015): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.teslacoilsw.launcher
+W/PackageManager( 2015): Unknown permission com.cyanogenmod.trebuchet.permission.READ_SETTINGS in package com.teslacoilsw.launcher
+W/PackageManager( 2015): Unknown permission org.adw.launcher.permission.READ_SETTINGS in package com.teslacoilsw.launcher
+W/PackageManager( 2015): Unknown permission org.adwfreak.launcher.permission.READ_SETTINGS in package com.teslacoilsw.launcher
+W/PackageManager( 2015): Unknown permission com.anddoes.launcher.permission.READ_SETTINGS in package com.teslacoilsw.launcher
+W/PackageManager( 2015): Unknown permission com.google.android.launcher.permission.READ_SETTINGS in package com.teslacoilsw.launcher
+W/PackageManager( 2015): Unknown permission android.permission.READ_MEDIA_STORAGE in package com.android.awgallery
+W/PackageManager( 2015): Not granting permission android.permission.WRITE_MEDIA_STORAGE to package com.android.awgallery (protectionLevel=18 flags=0x8bc45)
+W/PackageManager( 2015): Not granting permission android.permission.SET_ANIMATION_SCALE to package com.android.awgallery (protectionLevel=50 flags=0x8bc45)
+W/PackageManager( 2015): Not granting permission android.permission.MOUNT_UNMOUNT_FILESYSTEMS to package com.android.awgallery (protectionLevel=18 flags=0x8bc45)
+W/PackageManager( 2015): Not granting permission android.permission.ACCESS_DOWNLOAD_MANAGER to package com.android.browser (protectionLevel=18 flags=0x9be45)
+W/PackageManager( 2015): Not granting permission android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS to package com.android.browser (protectionLevel=2 flags=0x9be45)
+W/PackageManager( 2015): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.android.onetimeinitializer
+W/PackageManager( 2015): Unknown permission com.android.launcher.permission.WRITE_SETTINGS in package com.android.onetimeinitializer
+W/PackageManager( 2015): Not granting permission android.permission.BROADCAST_PACKAGE_REMOVED to package com.google.android.marvin.talkback (protectionLevel=2 flags=0x49be45)
+W/PackageManager( 2015): Unknown permission com.google.android.gallery3d.permission.PICASA_STORE in package com.android.dreams.phototable
+W/PackageManager( 2015): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.android.settings
+W/PackageManager( 2015): Unknown permission com.android.launcher.permission.WRITE_SETTINGS in package com.android.settings
+W/PackageManager( 2015): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.google.android.googlequicksearchbox
+W/PackageManager( 2015): Unknown permission com.android.launcher.permission.WRITE_SETTINGS in package com.google.android.googlequicksearchbox
+W/PackageManager( 2015): Unknown permission com.google.android.voicesearch.SHORTCUTS_ACCESS in package com.google.android.googlequicksearchbox
+W/PackageManager( 2015): Unknown permission com.google.android.voicesearch.ACCESS_SETTINGS in package com.google.android.googlequicksearchbox
+W/PackageManager( 2015): Unknown permission com.google.android.ears.permission.WRITE in package com.google.android.googlequicksearchbox
+W/PackageManager( 2015): Unknown permission com.google.android.apps.googlevoice.permission.AUTO_SEND in package com.google.android.googlequicksearchbox
+W/PackageManager( 2015): Unknown permission com.google.android.gm.permission.AUTO_SEND in package com.google.android.googlequicksearchbox
+W/PackageManager( 2015): Not granting permission android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS to package com.android.vending (protectionLevel=2 flags=0x400abe45)
+W/PackageManager( 2015): Unknown permission android.permission.SEND_SMS_NO_CONFIRMATION in package com.android.vending
+W/PackageManager( 2015): Not granting permission android.permission.READ_LOGS to package com.softwinner.fireplayer (protectionLevel=50 flags=0x8be45)
+W/PackageManager( 2015): Not granting permission android.permission.INSTALL_PACKAGES to package com.softwinner.fireplayer (protectionLevel=18 flags=0x8be45)
+W/PackageManager( 2015): Unknown permission android.permission.USES_POLICY_FORCE_LOCK in package com.android.systemui
+W/PackageManager( 2015): Not granting permission android.permission.INSTALL_PACKAGES to package com.jianui.filemanager (protectionLevel=18 flags=0x8be45)
+W/PackageManager( 2015): Not granting permission android.permission.DELETE_PACKAGES to package com.jianui.filemanager (protectionLevel=18 flags=0x8be45)
+W/PackageManager( 2015): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.jianui.filemanager
+W/PackageManager( 2015): Unknown permission com.android.launcher.permission.WRITE_SETTINGS in package com.jianui.filemanager
+W/PackageManager( 2015): Not granting permission android.permission.MOUNT_UNMOUNT_FILESYSTEMS to package com.jianui.filemanager (protectionLevel=18 flags=0x8be45)
+W/PackageManager( 2015): Not granting permission android.permission.ACCOUNT_MANAGER to package com.jianui.filemanager (protectionLevel=2 flags=0x8be45)
+W/PackageManager( 2015): Not granting permission android.permission.WRITE_MEDIA_STORAGE to package com.estrongs.android.pop (protectionLevel=18 flags=0x48be44)
+W/PackageManager( 2015): Unknown permission .PERMISSION in package com.estrongs.android.pop
+W/PackageManager( 2015): Not granting permission android.permission.REBOOT to package eu.chainfire.supersu (protectionLevel=18 flags=0x83e05)
+W/PackageManager( 2015): Not granting permission android.permission.DEVICE_POWER to package com.android.deskclock (protectionLevel=2 flags=0x8be45)
+W/PackageManager( 2015): Not granting permission android.permission.READ_DREAM_STATE to package com.google.android.gsf (protectionLevel=2 flags=0x40083e45)
+W/PackageManager( 2015): Unknown permission com.chrome.permission.DEVICE_EXTRAS in package com.android.chrome
+W/PackageManager( 2015): Unknown permission com.sec.enterprise.knox.MDM_CONTENT_PROVIDER in package com.android.chrome
+D/SensorManager( 2015): discard gsensor data ...
+D/EventHub( 2015): No input device configuration file found for device 'switch'.
+W/EventHub( 2015): Unable to disable kernel key repeat for /dev/input/event3: Function not implemented
+I/EventHub( 2015): New device: id=4, fd=107, path='/dev/input/event3', name='switch', classes=0x1, configuration='', keyLayout='/system/usr/keylayout/Generic.kl', keyCharacterMap='/system/usr/keychars/Generic.kcm', builtinKeyboard=false, usingSuspendBlockIoctl=true, usingClockIoctl=true
+D/EventHub( 2015): No input device configuration file found for device 'headset'.
+W/EventHub( 2015): Unable to disable kernel key repeat for /dev/input/event2: Function not implemented
+I/EventHub( 2015): New device: id=5, fd=108, path='/dev/input/event2', name='headset', classes=0x1, configuration='', keyLayout='/system/usr/keylayout/Generic.kl', keyCharacterMap='/system/usr/keychars/Generic.kcm', builtinKeyboard=false, usingSuspendBlockIoctl=true, usingClockIoctl=true
+D/EventHub( 2015): No input device configuration file found for device 'sunxi-keyboard'.
+W/EventHub( 2015): Unable to disable kernel key repeat for /dev/input/event1: Function not implemented
+I/EventHub( 2015): New device: id=6, fd=106, path='/dev/input/event1', name='sunxi-keyboard', classes=0x1, configuration='', keyLayout='/system/usr/keylayout/sunxi-keyboard.kl', keyCharacterMap='/system/usr/keychars/Generic.kcm', builtinKeyboard=false, usingSuspendBlockIoctl=true, usingClockIoctl=true
+E/EventHub( 2015): could not get driver version for /dev/input/mice, Not a typewriter
+I/SystemServer( 2015): NetworkStats Service
+I/SystemServer( 2015): NetworkPolicy Service
+I/SystemServer( 2015): Wi-Fi P2pService
+I/SystemServer( 2015): Ethernet Service
+I/EthernetService( 2015): EthernetService Starting......
+I/SystemServer( 2015): Wi-Fi Service
+D/WifiHW  ( 2015): Enter wifi_unload_driver Function.
+I/SystemServer( 2015): Connectivity Service
+D/ConnectivityService( 2015): ConnectivityService starting up
+D/ConnectivityService( 2015): wifiOnly=false
+D/BluetoothTethering( 2015): startMonitoring: target: Handler (com.android.server.ConnectivityService$NetworkStateTrackerHandler) {41ea57a8}
+D/BluetoothTethering( 2015): startMonitoring: mCsHandler: Handler (com.android.server.ConnectivityService$NetworkStateTrackerHandler) {41ea57a8}
+D/BluetoothManagerService( 2015): Message: 20
+D/BluetoothManagerService( 2015): Added callback: android.bluetooth.BluetoothAdapter$1@41cd35b0:true
+D/BluetoothManagerService( 2015): Message: 30
+W/ContextImpl( 2015): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1543 android.bluetooth.BluetoothPan.doBind:149 android.bluetooth.BluetoothPan.<init>:141 android.bluetooth.BluetoothAdapter.getProfileProxy:1190 android.bluetooth.BluetoothTetheringDataTracker.startMonitoring:116 
+I/InputReader( 2015): Device added: id=-1, name='Virtual', sources=0x00000301
+I/InputReader( 2015): Device added: id=6, name='sunxi-keyboard', sources=0x00000101
+I/InputReader( 2015): Device added: id=5, name='headset', sources=0x00000101
+I/InputReader( 2015): Device added: id=4, name='switch', sources=0x00000101
+I/InputReader( 2015): Device added: id=2, name='axp22-supplyer', sources=0x00000101
+I/InputReader( 2015):   Touch device 'gt9xxnew_ts' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+I/InputReader( 2015): Device added: id=1, name='gt9xxnew_ts', sources=0x00001103
+E/SHUGE   ( 2015): mEthManage is OKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK
+D/InputManager-JNI( 2015): notifyConfigurationChanged - when=17615033011
+I/InputReader( 2015): Reconfiguring input devices.  changes=0x00000004
+I/InputReader( 2015): Device reconfigured: id=1, name='gt9xxnew_ts', size 1536x2048, orientation 0, mode 1, display id 0
+I/ActivityManager( 2015): Config changes=8 {1.0 ?mcc?mnc en_US ldltr sw768dp w768dp h951dp 320dpi xlrg port ?uimode ?night finger -keyb/v/h -nav/h s.4}
+D/Ethernet( 2015): ConnectNetwork
+D/WifiController( 2015): WifiController msg { when=0 what=155656 target=com.android.internal.util.StateMachine$SmHandler } deferred for 466ms
+E/MobileDataStateTracker( 2015): default: Ignoring feature request because could not acquire PhoneService
+E/MobileDataStateTracker( 2015): default: Could not enable APN type "default"
+D/AlarmManager( 2015): Target = android creator = android type = 3 action = android.net.ConnectivityService.action.PKT_CNT_SAMPLE_INTERVAL_ELAPSED
+I/WifiService( 2015): WifiService starting up with Wi-Fi enabled
+D/WifiService( 2015): setWifiEnabled: true pid=2015, uid=1000
+I/SystemServer( 2015): Network Service Discovery Service
+D/NsdService( 2015): Network service discovery enabled true
+I/SystemServer( 2015): UpdateLock Service
+I/SystemServer( 2015): Notification Manager
+I/SystemServer( 2015): Device Storage Monitor
+I/SystemServer( 2015): Location Manager
+I/SystemServer( 2015): Country Detector
+I/SystemServer( 2015): Search Service
+I/SystemServer( 2015): DropBox Service
+I/SystemServer( 2015): Wallpaper Service
+I/SystemServer( 2015): Audio Service
+V/audio_hw_primary( 1514): adev_set_voice_volume, volume: 0.800000
+I/SystemServer( 2015): Dock Observer
+W/DockObserver( 2015): This kernel does not have dock station support
+I/SystemServer( 2015): Wired Accessory Manager
+W/WiredAccessoryManager( 2015): This kernel does not have usb audio support
+I/SystemServer( 2015): USB Service
+I/SystemServer( 2015): Serial Service
+I/SystemServer( 2015): Twilight Service
+I/SystemServer( 2015): UI Mode Manager Service
+I/SystemServer( 2015): Backup Service
+V/BackupManagerService( 2015): Initializing package tracking
+V/BackupManagerService( 2015): No ancestral data
+V/BackupManagerService( 2015): addPackageParticipantsLocked: all
+I/BackupManagerService( 2015): Scheduling backup for new app com.android.browser
+D/BackupManagerService( 2015): Now staging backup of com.android.browser
+I/BackupManagerService( 2015): Scheduling backup for new app com.android.providers.userdictionary
+D/BackupManagerService( 2015): Now staging backup of com.android.providers.userdictionary
+I/BackupManagerService( 2015): Scheduling backup for new app com.android.sharedstoragebackup
+D/BackupManagerService( 2015): Now staging backup of com.android.sharedstoragebackup
+I/BackupManagerService( 2015): Scheduling backup for new app com.google.android.marvin.talkback
+D/BackupManagerService( 2015): Now staging backup of com.google.android.marvin.talkback
+I/BackupManagerService( 2015): Scheduling backup for new app android
+D/BackupManagerService( 2015): Now staging backup of android
+I/BackupManagerService( 2015): Scheduling backup for new app com.google.android.googlequicksearchbox
+D/BackupManagerService( 2015): Now staging backup of com.google.android.googlequicksearchbox
+I/BackupManagerService( 2015): Scheduling backup for new app com.android.vending
+D/BackupManagerService( 2015): Now staging backup of com.android.vending
+I/BackupManagerService( 2015): Scheduling backup for new app com.android.providers.settings
+D/BackupManagerService( 2015): Now staging backup of com.android.providers.settings
+I/BackupManagerService( 2015): Scheduling backup for new app com.google.android.calendar
+D/BackupManagerService( 2015): Now staging backup of com.google.android.calendar
+V/BackupManagerService( 2015): Starting with transport android/com.android.internal.backup.LocalTransport
+V/BackupManagerService( 2015): Found transports: 2
+I/BackupManagerService( 2015): Binding to transport host ComponentInfo{android/com.android.internal.backup.LocalTransportService}
+I/BackupManagerService( 2015): Binding to transport host ComponentInfo{com.google.android.backuptransport/com.google.android.backup.BackupTransportService}
+I/BackupManagerService( 2015): Found stale backup journal, scheduling
+I/BackupManagerService( 2015):   com.android.browser
+I/BackupManagerService( 2015):   com.android.providers.userdictionary
+I/BackupManagerService( 2015):   com.android.sharedstoragebackup
+I/BackupManagerService( 2015):   com.google.android.marvin.talkback
+I/BackupManagerService( 2015):   android
+I/BackupManagerService( 2015):   com.google.android.googlequicksearchbox
+I/BackupManagerService( 2015):   com.android.vending
+I/BackupManagerService( 2015):   com.android.providers.settings
+I/BackupManagerService( 2015):   com.google.android.calendar
+I/BackupManagerService( 2015): Backup enabled => false
+I/BackupManagerService( 2015): Opting out of backup
+I/SystemServer( 2015): AppWidget Service
+I/SystemServer( 2015): Recognition Service
+I/SystemServer( 2015): DiskStats Service
+I/SystemServer( 2015): SamplingProfiler Service
+I/SystemServer( 2015): NetworkTimeUpdateService
+I/SystemServer( 2015): CommonTimeManagementService
+I/SystemServer( 2015): CertBlacklister
+I/SystemServer( 2015): Dreams Service
+I/SystemServer( 2015): Assets Atlas Service
+I/WindowManager( 2015): SAFE MODE not enabled
+D/dalvikvm( 2015): JIT started for system_server
+I/SystemServer( 2015): IdleMaintenanceService
+I/SystemServer( 2015): Print Service
+I/SystemServer( 2015): Media Router Service
+D/Atlas   ( 2015): Loaded configuration: SliceMinArea (768x768) flags=0x2 count=25
+D/libEGL  ( 2015): loaded /vendor/lib/egl/libEGL_POWERVR_ROGUE.so
+I/Zygote  ( 2015): Process: zygote socket opened
+D/libEGL  ( 2015): loaded /vendor/lib/egl/libGLESv1_CM_POWERVR_ROGUE.so
+E/IMGSRV  ( 2015): :0: OGLES3LIBNAME is /system/vendor/lib/egl/libGLESv2_POWERVR_ROGUE.so
+D/libEGL  ( 2015): loaded /vendor/lib/egl/libGLESv2_POWERVR_ROGUE.so
+D/libcheckfile( 2015): checkfile_init
+V/KeyguardServiceDelegate( 2015): *** Keyguard started
+V/KeyguardServiceDelegate( 2015): onSystemReady() called before keyguard service was ready
+I/ActivityManager( 2015): Start proc com.android.systemui for service com.android.keyguard/.KeyguardService: pid=2080 uid=10011 gids={50011, 1028, 1015, 1035, 3002, 3001}
+D/WindowManager( 2015): update Settings mBootFastEnable = false
+D/SurfaceFlinger( 1511): ####setDisplayParameter: dispId=0, cmd = 2, para0 = 0, para1= 0, para2 = 0
+D/SurfaceFlinger( 1511): ####setDisplayParameter: dispId=0, cmd = 2, para0 = 1, para1= 0, para2 = 0
+D/SurfaceFlinger( 1511): ####setDisplayParameter: dispId=0, cmd = 3, para0 = 0, para1= 0, para2 = 0
+D/SurfaceFlinger( 1511): ####setDisplayParameter: dispId=1, cmd = 6, para0 = 4, para1= 10, para2 = 0
+D/SurfaceFlinger( 1511): ####setDisplayParameter: dispId=1, cmd = 7, para0 = 100, para1= 100, para2 = 0
+V/DisplayManagerService( 2015): update:brightnessLightMode=1
+V/DisplayManagerService( 2015): update:hdmiOutputMode=10
+V/DisplayManagerService( 2015): update:isFullScreen=true
+V/DisplayManagerService( 2015): update:hdmiPersent=25700
+I/AppOps  ( 2015): Pruning old package media/1013: new uid=-1
+I/ActivityManager( 2015): System now ready
+D/Atlas   ( 2015): Rendered atlas in 79.15ms (2.42+76.73ms)
+I/SystemServer( 2015): Making services ready
+D/NetworkManagementService( 2015): enabling bandwidth control
+I/Vold    ( 1506): Volume::mountVol: getMountpoint() /mnt/extsd
+I/Vold    ( 1506): /dev/block/vold/179:49 being considered for volume extsd
+D/Vold    ( 1506): Volume extsd state changing 1 (Idle-Unmounted) -> 3 (Checking)
+I/Vold    ( 1506): Exfat::check
+D/MountService( 2015): volume state changed for /mnt/extsd (unmounted -> checking)
+D/MountService( 2015): sendStorageIntent Intent { act=android.intent.action.MEDIA_CHECKING dat=file:///mnt/extsd (has extras) } to UserHandle{-1}
+I/fsck.exfat( 1506): exfatfsck 0.9.5
+I/fsck.exfat( 1506): ERROR: exFAT file system is not found.
+I/fsck.exfat( 1506): fsck.exfat terminated by exit(1)
+E/Vold    ( 1506): Filesystem check failed (unknown exit code 1)
+I/Vold    ( 1506): Fat::check /dev/block/vold/179:49
+I/fsck_msdos( 1506): ** /dev/block/vold/179:49
+I/fsck_msdos( 1506): ** Phase 1 - Read FAT (compare skipped)
+I/fsck_msdos( 1506): Attempting to allocate 30130 KB for FAT
+V/KeyguardService( 2080): onCreate()
+D/WifiController( 2015): DEFERRED_TOGGLE handled
+D/AwesomePlayer( 1514): Calling process is: com.android.systemui
+D/SystemUIService( 2080): loading: class com.android.systemui.recent.Recents
+D/SystemUIService( 2080): running: com.android.systemui.recent.Recents@41886988
+D/SystemUIService( 2080): loading: class com.android.systemui.statusbar.SystemBars
+D/SystemUIService( 2080): running: com.android.systemui.statusbar.SystemBars@418877f0
+D/SystemUIService( 2080): loading: class com.android.systemui.usb.StorageNotification
+D/SystemUIService( 2080): running: com.android.systemui.usb.StorageNotification@41889f58
+D/WifiHW  ( 1508): Enter: wifi_get_fw_path function, fw_type=0,
+D/WifiHW  ( 1508): Eneter: wifi_change_fw_path, fwpath = /system/vendor/modules/fw_bcm40181a2.bin.
+D/SoftapController( 1508): Softap fwReload - Ok
+D/SystemUIService( 2080): loading: class com.android.systemui.power.PowerUI
+D/SystemUIService( 2080): running: com.android.systemui.power.PowerUI@4188cae0
+D/SystemUIService( 2080): loading: class com.android.systemui.media.RingtonePlayer
+D/SystemUIService( 2080): running: com.android.systemui.media.RingtonePlayer@4188de08
+D/SystemUIService( 2080): loading: class com.android.systemui.settings.SettingsUI
+D/SystemUIService( 2080): running: com.android.systemui.settings.SettingsUI@4188f870
+D/AwesomePlayer( 1514): Calling process is: com.android.systemui
+D/CommandListener( 1508): Setting iface cfg
+D/CommandListener( 1508): Trying to bring down wlan0
+I/StatusBarManagerService( 2015): registerStatusBar bar=com.android.internal.statusbar.IStatusBar$Stub$Proxy@41ebdc30
+D/PhoneStatusBar( 2080): mSettingsPanelGravity = 8388661
+D/AlarmManager( 2015): Target = android creator = android type = 3 action = com.android.server.action.NETWORK_STATS_POLL
+D/WifiMonitor( 2015): startMonitoring(wlan0) with mConnected = false
+I/ActivityManager( 2015): Start proc com.android.settings for broadcast com.android.settings/.widget.SettingsAppWidgetProvider: pid=2148 uid=1000 gids={41000, 1028, 1015, 3002, 3001, 3003, 1004, 2002, 2001}
+I/wpa_supplicant( 2145): Successfully initialized wpa_supplicant
+D/AwesomePlayer( 1514): Calling process is: com.android.systemui
+I/wpa_supplicant( 2145): rfkill: Cannot open RFKILL control device
+I/ActivityManager( 2015): Config changes=200 {1.0 ?mcc?mnc en_US ldltr sw768dp w768dp h951dp 320dpi xlrg port finger -keyb/v/h -nav/h s.5}
+I/PowerWidget( 2080): Clearing any old widget stuffs
+I/PowerWidget( 2080): Setting up widget
+I/PowerWidget( 2080): Button list: toggleAirplane|toggleWifi|toggleAutoRotate|toggleVolume|toggleScreenshot|toggleSound|toggleReboot|toggleLockScreen|toggleShutdown|toggleBluetooth|toggleSpeedMode|toggleScreenrecord
+D/BluetoothManagerService( 2015): Message: 20
+D/BluetoothManagerService( 2015): Added callback: android.bluetooth.IBluetoothManagerCallback$Stub$Proxy@418d7e28:true
+D/BluetoothAdapter( 2148): 1099426120: getState() :  mService = null. Returning STATE_OFF
+D/BluetoothManagerService( 2015): Message: 30
+D/BluetoothManagerService( 2015): Message: 30
+W/ContextImpl( 2148): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1543 android.content.ContextWrapper.bindService:517 android.bluetooth.BluetoothInputDevice.doBind:245 android.bluetooth.BluetoothInputDevice.<init>:238 android.bluetooth.BluetoothAdapter.getProfileProxy:1187 
+D/LocalBluetoothProfileManager( 2148): Adding local MAP profile
+D/BluetoothMap( 2148): Create BluetoothMap proxy object
+D/BluetoothManagerService( 2015): Message: 30
+W/ContextImpl( 2148): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1543 android.content.ContextWrapper.bindService:517 android.bluetooth.BluetoothPan.doBind:149 android.bluetooth.BluetoothPan.<init>:141 android.bluetooth.BluetoothAdapter.getProfileProxy:1190 
+W/ContextImpl( 2148): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1543 android.content.ContextWrapper.bindService:517 android.bluetooth.BluetoothMap.doBind:109 android.bluetooth.BluetoothMap.<init>:102 android.bluetooth.BluetoothAdapter.getProfileProxy:1196 
+W/InputMethodManagerService( 2015): Ignoring setImeWindowStatus of uid 1000 token: null
+D/BluetoothManagerService( 2015): Message: 30
+D/LocalBluetoothProfileManager( 2148): LocalBluetoothProfileManager construction complete
+D/BluetoothAdapter( 2148): 1099426120: getState() :  mService = null. Returning STATE_OFF
+D/BluetoothAdapter( 2148): 1099426120: getState() :  mService = null. Returning STATE_OFF
+W/ContextImpl( 2148): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1543 android.content.ContextWrapper.bindService:517 android.bluetooth.BluetoothPbap.doBind:164 android.bluetooth.BluetoothPbap.<init>:157 com.android.settings.bluetooth.PbapServerProfile.<init>:68 
+E/henryhuang( 2080): mMaximumBacklight: 255 mMinimumBacklight: 10 value: 102
+I/ActivityManager( 2015): Start proc com.android.inputmethod.latin for service com.android.inputmethod.latin/.LatinIME: pid=2175 uid=10042 gids={50042, 1028, 1015}
+V/InputMethodManagerService( 2015): Adding window token: android.os.Binder@41afbdf8
+I/ActivityManager( 2015): Start proc android.process.media for broadcast com.android.providers.media/.MtpReceiver: pid=2189 uid=10005 gids={50005, 1028, 1015, 1023, 1024, 2001, 3003, 3007}
+E/FlpHardwareProvider( 2015): Error hw_get_module 'flp': -2
+E/FlpHardwareProvider( 2015): Error hw_get_module 'flp': -2
+E/LocationManagerService( 2015): No FusedProvider found.
+V/PhoneStatusBar/NavigationBarView( 2080): touchEnabled:false
+I/CommonTimeManagementService( 2015): No common time service detected on this platform.  Common time services will be unavailable.
+I/InputReader( 2015): Reconfiguring input devices.  changes=0x00000020
+D/AlarmManager( 2015): Target = android creator = android type = 3 action = com.android.server.NetworkTimeUpdateService.action.POLL
+I/ActivityManager( 2015): Start proc com.android.phone for added application com.android.phone: pid=2204 uid=1001 gids={41001, 3002, 3001, 3003, 1028, 1015}
+I/InputReader( 2015): Reconfiguring input devices.  changes=0x00000010
+I/ActivityManager( 2015): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.teslacoilsw.launcher/com.android.launcher2.Launcher} from pid 0
+I/ActivityManager( 2015): performance mode unset
+W/ContextImpl( 2015): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.am.ActivityStackSupervisor.startActivityLocked:1118 com.android.server.am.ActivityStackSupervisor.startHomeActivity:635 com.android.server.am.ActivityManagerService.startHomeActivityLocked:2901 com.android.server.am.ActivityStackSupervisor.resumeHomeActivity:298 
+I/ActivityManager( 2015): Start proc com.teslacoilsw.launcher for activity com.teslacoilsw.launcher/com.android.launcher2.Launcher: pid=2216 uid=10020 gids={50020, 3003, 1028, 1015}
+I/ActivityManager( 2015): Start proc com.android.printspooler for service com.android.printspooler/.PrintSpoolerService: pid=2228 uid=10054 gids={50054}
+I/LatinIME( 2175): Hardware accelerated drawing: true
+I/ActivityManager( 2015): Start proc com.google.android.gms for broadcast com.google.android.gms/com.google.android.location.internal.NlpNetworkProviderSettingsUpdateReceiver: pid=2243 uid=10007 gids={50007, 3003, 1007, 1028, 1015, 3002, 3001, 3007, 2001, 3006}
+I/Choreographer( 2015): Skipped 58 frames!  The application may be doing too much work on its main thread.
+V/KeyguardServiceDelegate( 2015): *** Keyguard connected (yay!)
+W/InputMethodManagerService( 2015): Focus gain on non-focused client android.view.inputmethod.InputMethodManager$1@41e54ff8 (uid=1000 pid=2015)
+D/BluetoothManagerService( 2015): Message: 20
+D/BluetoothManagerService( 2015): Added callback: android.bluetooth.IBluetoothManagerCallback$Stub$Proxy@41a6e930:true
+D/BluetoothAdapter( 2080): 1103087432: getState() :  mService = null. Returning STATE_OFF
+D/BluetoothAdapter( 2080): 1103087432: getState() :  mService = null. Returning STATE_OFF
+D/WindowManager( 2015): update Settings mBootFastEnable = false
+D/PhoneStatusBar( 2080): @@@@@@@@@@@@@@@@@@@@@@@@@@@@ACTION_SCREEN_ON mNavigationBarView INVISIBLE
+I/PowerWidget( 2080): Clearing any old widget stuffs
+D/BluetoothManagerService( 2015): Message: 300
+D/BluetoothManagerService( 2015): MESSAGE_USER_SWITCHED
+I/PowerWidget( 2080): Setting up widget
+I/PowerWidget( 2080): Button list: toggleAirplane|toggleWifi|toggleAutoRotate|toggleVolume|toggleScreenshot|toggleSound|toggleReboot|toggleLockScreen|toggleShutdown|toggleBluetooth|toggleSpeedMode|toggleScreenrecord
+I/PrintSpoolerService( 2228): No existing print spooler state.
+I/PowerWidget( 2080): Clearing any old widget stuffs
+I/PowerWidget( 2080): Setting up widget
+I/PowerWidget( 2080): Button list: toggleAirplane|toggleWifi|toggleAutoRotate|toggleVolume|toggleScreenshot|toggleSound|toggleReboot|toggleLockScreen|toggleShutdown|toggleBluetooth|toggleSpeedMode|toggleScreenrecord
+D/Tethering( 2015): sendTetherStateChangedBroadcast 1, 0, 0
+I/MultiDex( 2243): load(/system/priv-app/GmsCore.apk, forceReload=false)
+I/wpa_supplicant( 2145): rfkill: Cannot open RFKILL control device
+D/PhoneStatusBar( 2080): disable: < expand icons alerts ticker system_info back home recent clock search >
+V/BackupManagerService( 2015): Connected to transport ComponentInfo{android/com.android.internal.backup.LocalTransportService}
+V/BackupManagerService( 2015): Registering transport android/com.android.internal.backup.LocalTransportService::android/com.android.internal.backup.LocalTransport = com.android.internal.backup.LocalTransport@41e8e828
+I/MultiDex( 2243): Need extracted file /data/data/com.google.android.gms/files/secondary-dexes/GmsCore.apk.classes2.zip
+I/MultiDex( 2243): No extraction needed for /data/data/com.google.android.gms/files/secondary-dexes/GmsCore.apk.classes2.zip of size 1547068
+I/ActivityManager( 2015): Start proc com.android.smspush for service com.android.smspush/.WapPushManager: pid=2276 uid=10059 gids={50059}
+D/ACRA    ( 2216): Set OnSharedPreferenceChangeListener.
+D/BluetoothAdapter( 2080): 1103087432: getState() :  mService = null. Returning STATE_OFF
+D/BluetoothAdapter( 2080): 1103087432: getState() :  mService = null. Returning STATE_OFF
+D/BluetoothManagerService( 2015): Message: 20
+D/BluetoothManagerService( 2015): Added callback: android.bluetooth.IBluetoothManagerCallback$Stub$Proxy@41b3cb48:true
+D/PhoneStatusBar( 2080): heads up is disabled
+D/PhoneStatusBar( 2080): mSettingsPanelGravity = 8388661
+I/ActivityManager( 2015): Start proc android.process.acore for content provider com.android.providers.contacts/.CallLogProvider: pid=2295 uid=10003 gids={50003, 3003, 1028, 1015}
+D/WifiConfigStore( 2015): Loading config and enabling all networks
+D/AlarmManager( 2015): Target = com.android.phone creator = com.android.phone type = 3 action = com.android.phone.UPDATE_CALLER_INFO_CACHE
+E/WifiConfigStore( 2015): Error parsing configurationjava.io.FileNotFoundException: /data/misc/wifi/ipconfig.txt: open failed: ENOENT (No such file or directory)
+I/ActivityManager( 2015): Start proc com.google.process.location for broadcast com.google.android.gms/com.google.android.location.network.LocationProviderChangeReceiver: pid=2314 uid=10007 gids={50007, 3003, 1007, 1028, 1015, 3002, 3001, 3007, 2001, 3006}
+I/Choreographer( 2080): Skipped 49 frames!  The application may be doing too much work on its main thread.
+D/BluetoothManagerService( 2015): Message: 30
+W/InputAttributes( 2175): No editor info for this field. Bug?
+I/ResourceUtils( 2175): Found default value: resource=keypress_vibration_durations build=[HARDWARE=sun9i MODEL=ONDA V989 BRAND=ONDA MANUFACTURER=ONDA] default=-1
+V/        ( 2080): result:15:41
+D/CallNotifier( 2204): CallNotifier: mSignalInfoToneGenerator created when toneplay
+D/BluetoothManagerService( 2015): Message: 30
+D/AlarmManager( 2015): Target = android creator = android type = 1 action = com.android.server.WifiManager.action.START_SCAN
+D/CommandListener( 1508): Setting iface cfg
+V/        ( 2080): result:15:41
+D/DateView( 2080): sss = August 24
+D/DateView( 2080): ss = Mon
+D/CommandListener( 1508): Trying to bring up p2p0
+D/WifiMonitor( 2015): startMonitoring(p2p0) with mConnected = true
+I/LatinIME:LogUtils( 2175): Dictionary info: dictionary = userunigram.en_US.dict ; version = ? ; date = ?
+D/MobileDataStateTracker( 2015): fota: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=fota
+I/LatinIME:LogUtils( 2175): Dictionary info: dictionary = main:en ; version = 42 ; date = 1381226429
+D/MobileDataStateTracker( 2015): fota: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+V/BackupManagerService( 2015): Connected to transport ComponentInfo{com.google.android.backuptransport/com.google.android.backup.BackupTransportService}
+V/BackupManagerService( 2015): Registering transport com.google.android.backuptransport/com.google.android.backup.BackupTransportService::com.google.android.backup/.BackupTransportService = com.android.internal.backup.IBackupTransport$Stub$Proxy@41c89e58
+D/MobileDataStateTracker( 2015): ia: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=ia
+I/LatinIME:LogUtils( 2175): Dictionary info: dictionary = personalization.en_US.dict ; version = ? ; date = 1440413458
+I/MultiDex( 2314): load(/system/priv-app/GmsCore.apk, forceReload=false)
+D/MobileDataStateTracker( 2015): ia: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+D/MobileDataStateTracker( 2015): supl: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=supl
+I/LatinIME:LogUtils( 2175): Dictionary info: dictionary = UserHistoryDictionary.en_US.dic ; version = ? ; date = 1440430831
+I/LatinIME:LogUtils( 2175): Dictionary info: dictionary = PersonalizationPredictionDictio ; version = ? ; date = 1440413458
+D/MobileDataStateTracker( 2015): supl: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+D/MobileDataStateTracker( 2015): hipri: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=hipri
+D/MobileDataStateTracker( 2015): hipri: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+D/MobileDataStateTracker( 2015): ims: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=ims
+D/MobileDataStateTracker( 2015): ims: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+D/MobileDataStateTracker( 2015): default: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=default
+D/MobileDataStateTracker( 2015): default: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+D/MobileDataStateTracker( 2015): mms: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=mms
+D/MobileDataStateTracker( 2015): mms: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+D/MobileDataStateTracker( 2015): cbs: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=cbs
+D/AlarmManager( 2015): Target = com.android.inputmethod.latin creator = com.android.inputmethod.latin type = 1 action = com.android.inputmethod.latin.personalization.DICT_DECAY
+D/MobileDataStateTracker( 2015): cbs: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+D/MobileDataStateTracker( 2015): fota: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=fota
+D/MobileDataStateTracker( 2015): fota: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+D/MobileDataStateTracker( 2015): ia: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=ia
+D/MobileDataStateTracker( 2015): ia: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+D/MobileDataStateTracker( 2015): supl: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=supl
+D/MobileDataStateTracker( 2015): supl: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+D/MobileDataStateTracker( 2015): hipri: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=hipri
+D/MobileDataStateTracker( 2015): hipri: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+D/MobileDataStateTracker( 2015): ims: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=ims
+I/MultiDex( 2314): Need extracted file /data/data/com.google.android.gms/files/secondary-dexes/GmsCore.apk.classes2.zip
+I/MultiDex( 2314): No extraction needed for /data/data/com.google.android.gms/files/secondary-dexes/GmsCore.apk.classes2.zip of size 1547068
+D/MobileDataStateTracker( 2015): ims: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+D/MobileDataStateTracker( 2015): default: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=default
+D/MobileDataStateTracker( 2015): default: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+D/MobileDataStateTracker( 2015): mms: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=mms
+D/MobileDataStateTracker( 2015): mms: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+D/MobileDataStateTracker( 2015): cbs: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=cbs
+D/MobileDataStateTracker( 2015): cbs: Received state=DISCONNECTED, old=DISCONNECTED, reason=radioTurnedOff
+D/MobileDataStateTracker( 2015): fota: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=fota
+D/MobileDataStateTracker( 2015): fota: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataDetached
+D/MobileDataStateTracker( 2015): ia: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=ia
+D/MobileDataStateTracker( 2015): ia: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataDetached
+D/MobileDataStateTracker( 2015): supl: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=supl
+D/MobileDataStateTracker( 2015): supl: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataDetached
+D/MobileDataStateTracker( 2015): hipri: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=hipri
+D/MobileDataStateTracker( 2015): hipri: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataDetached
+D/MobileDataStateTracker( 2015): ims: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=ims
+D/MobileDataStateTracker( 2015): ims: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataDetached
+D/MobileDataStateTracker( 2015): default: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=default
+D/MobileDataStateTracker( 2015): default: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataDetached
+D/MobileDataStateTracker( 2015): mms: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=mms
+D/MobileDataStateTracker( 2015): mms: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataDetached
+D/MobileDataStateTracker( 2015): cbs: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=cbs
+D/MobileDataStateTracker( 2015): cbs: Received state=DISCONNECTED, old=DISCONNECTED, reason=dataDetached
+D/MobileDataStateTracker( 2015): fota: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=fota
+D/MobileDataStateTracker( 2015): fota: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+D/MobileDataStateTracker( 2015): ia: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=ia
+D/MobileDataStateTracker( 2015): ia: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+D/MobileDataStateTracker( 2015): supl: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=supl
+D/libEGL  ( 2080): loaded /vendor/lib/egl/libEGL_POWERVR_ROGUE.so
+D/MobileDataStateTracker( 2015): supl: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+D/MobileDataStateTracker( 2015): hipri: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=hipri
+D/MobileDataStateTracker( 2015): hipri: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+D/MobileDataStateTracker( 2015): ims: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=ims
+D/MobileDataStateTracker( 2015): ims: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+D/MobileDataStateTracker( 2015): default: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=default
+D/MobileDataStateTracker( 2015): default: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+D/MobileDataStateTracker( 2015): mms: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=mms
+D/MobileDataStateTracker( 2015): mms: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+D/MobileDataStateTracker( 2015): cbs: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=cbs
+D/libEGL  ( 2080): loaded /vendor/lib/egl/libGLESv1_CM_POWERVR_ROGUE.so
+E/IMGSRV  ( 2080): :0: OGLES3LIBNAME is /system/vendor/lib/egl/libGLESv2_POWERVR_ROGUE.so
+D/MobileDataStateTracker( 2015): cbs: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+D/MobileDataStateTracker( 2015): fota: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=fota
+D/MobileDataStateTracker( 2015): fota: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+D/MobileDataStateTracker( 2015): ia: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=ia
+D/libEGL  ( 2080): loaded /vendor/lib/egl/libGLESv2_POWERVR_ROGUE.so
+D/TelephonyDebugService( 2204): TelephonyDebugService()
+D/MobileDataStateTracker( 2015): ia: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+D/MobileDataStateTracker( 2015): supl: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=supl
+D/MobileDataStateTracker( 2015): supl: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+D/MobileDataStateTracker( 2015): hipri: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=hipri
+D/MobileDataStateTracker( 2015): hipri: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+D/MobileDataStateTracker( 2015): ims: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=ims
+D/MobileDataStateTracker( 2015): ims: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+D/MobileDataStateTracker( 2015): default: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=default
+D/MobileDataStateTracker( 2015): default: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+D/MobileDataStateTracker( 2015): mms: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=mms
+D/MobileDataStateTracker( 2015): mms: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+D/MobileDataStateTracker( 2015): cbs: Broadcast received: android.intent.action.ANY_DATA_STATE apnType=cbs
+D/MobileDataStateTracker( 2015): cbs: Received state=DISCONNECTED, old=DISCONNECTED, reason=roamingOff
+D/BluetoothManagerService( 2015): Message: 30
+D/OpenGLRenderer( 2080): Enabling debug mode 0
+E/BluetoothPhoneService( 2204): Could not get a handle on Connection object for the call
+I/ActivityManager( 2015): Start proc com.google.process.gapps for content provider com.google.android.gsf/.settings.GoogleSettingsProvider: pid=2352 uid=10007 gids={50007, 3003, 1007, 1028, 1015, 3002, 3001, 3007, 2001, 3006}
+W/CallNotifier( 2204): Got onMwiChanged() on non-voice-capable device! Ignoring...
+I/PhoneApp( 2204): Headset phone created, binding local service.
+D/PhoneStatusBar( 2080): Owenli notification total:1, current:0, pkg:android, is clearable:false
+D/PhoneStatusBar( 2080): disable: < expand icons alerts ticker system_info back home RECENT* clock search >
+V/KeyguardHostView( 2080): Initial transport state: 1, pbstate=0
+I/ContactLocale( 2295): AddressBook Labels [en_US]: [, A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z, Α, Β, Γ, Δ, Ε, Ζ, Η, Θ, Ι, Κ, Λ, Μ, Ν, Ξ, Ο, Π, Ρ, Σ, Τ, Υ, Φ, Χ, Ψ, Ω, , А, Б, В, Г, Д, Е, Є, Ж, З, И, І, Ї, Й, К, Л, М, Н, О, П, Р, С, Т, У, Ф, Х, Ц, Ч, Ш, Щ, Ю, Я, , א, ב, ג, ד, ה, ו, ז, ח, ט, י, כ, ל, מ, נ, ס, ע, פ, צ, ק, ר, ש, ת, , ا, ب, ت, ث, ج, ح, خ, د, ذ, ر, ز, س, ش, ص, ض, ط, ظ, ع, غ, ف, ق, ك, ل, م, ن, ه, و, ي, , ก, ข, ฃ, ค, ฅ, ฆ, ง, จ, ฉ, ช, ซ, ฌ, ญ, ฎ, ฏ, ฐ, ฑ, ฒ, ณ, ด, ต, ถ, ท, ธ, น, บ, ป, ผ, ฝ, พ, ฟ, ภ, ม, ย, ร, ฤ, ล, ฦ, ว, ศ, ษ, ส, ห, ฬ, อ, ฮ, , ㄱ, ㄴ, ㄷ, ㄹ, ㅁ, ㅂ, ㅅ, ㅇ, ㅈ, ㅊ, ㅋ, ㅌ, ㅍ, ㅎ, , あ, か, さ, た, な, は, ま, や, ら, わ, #, ]
+I/GservicesProvider( 2352): Gservices pushing to system: true; secure/global: true
+I/fsck_msdos( 1506): ** Phase 2 - Check Cluster Chains
+D/WindowManager( 2015): setSystemUiVisibility start color:0 attrs:WM.LayoutParams{(0,0)(fillxfill) sim=#10 ty=2004 fl=#1030100 statusBarColor=0 pfl=0xa fmt=-3 wanim=0x7f0d0003 or=2 if=0x4}
+D/WindowManager( 2015): setSystemUiVisibility ent
+V/CommandQ( 2080):  0 color:0
+D/libEGL  ( 2216): loaded /vendor/lib/egl/libEGL_POWERVR_ROGUE.so
+D/libEGL  ( 2216): loaded /vendor/lib/egl/libGLESv1_CM_POWERVR_ROGUE.so
+E/IMGSRV  ( 2216): :0: OGLES3LIBNAME is /system/vendor/lib/egl/libGLESv2_POWERVR_ROGUE.so
+D/libEGL  ( 2216): loaded /vendor/lib/egl/libGLESv2_POWERVR_ROGUE.so
+I/wpa_supplicant( 2145): wlan0: Trying to associate with c0:4a:00:f7:8c:04 (SSID='Great-Wi-Fi' freq=2437 MHz)
+D/OpenGLRenderer( 2216): Enabling debug mode 0
+E/Nova.Workspace( 2216): The Hotseat screen must be >= 0 and < 1 (was 1); skipping child
+E/Nova.Workspace( 2216): The Hotseat screen must be >= 0 and < 1 (was 2); skipping child
+E/Nova.Workspace( 2216): The Hotseat screen must be >= 0 and < 1 (was 3); skipping child
+E/Nova.Workspace( 2216): The Hotseat screen must be >= 0 and < 1 (was 4); skipping child
+V/ProvidersChangedReceiver( 2314): calling applySettings
+I/fsck_msdos( 1506): ** Phase 3 - Checking Directories
+V/RenderScript( 2216): 0x76a926a0 Launching thread(s), CPUs 8
+I/ActivityManager( 2015): Displayed com.teslacoilsw.launcher/com.android.launcher2.Launcher: +1s993ms
+I/ActivityManager( 2015): Timeline: Activity_windows_visible id: com.teslacoilsw.launcher time:21039
+D/AlarmManager( 2015): Target = com.google.android.gms creator = com.google.android.gms type = 3 action = null
+I/GCoreUlr( 2314): Starting service, intent=Intent { act=com.google.android.location.reporting.ACTION_UPDATE_WORLD cmp=com.google.android.gms/com.google.android.location.reporting.service.DispatchingService (has extras) }, extras=Bundle[{receiverAction=android.location.PROVIDERS_CHANGED}]
+D/BluetoothAdapter( 2080): 1103087432: getState() :  mService = null. Returning STATE_OFF
+D/henryhuang( 2080): mWiFIName : null
+D/BluetoothAdapter( 2080): 1103087432: getState() :  mService = null. Returning STATE_OFF
+D/henryhuang( 2080): mWiFIName : null
+D/BluetoothAdapter( 2080): 1103087432: getState() :  mService = null. Returning STATE_OFF
+D/henryhuang( 2080): mWiFIName : null
+D/BluetoothAdapter( 2148): 1099426120: getState() :  mService = null. Returning STATE_OFF
+D/BluetoothAdapter( 2080): 1103087432: getState() :  mService = null. Returning STATE_OFF
+D/henryhuang( 2080): mWiFIName : null
+D/BluetoothAdapter( 2080): 1103087432: getState() :  mService = null. Returning STATE_OFF
+D/henryhuang( 2080): mWiFIName : null
+D/BluetoothAdapter( 2080): 1103087432: getState() :  mService = null. Returning STATE_OFF
+D/henryhuang( 2080): mWiFIName : null
+D/BluetoothAdapter( 2080): 1103087432: getState() :  mService = null. Returning STATE_OFF
+D/henryhuang( 2080): mWiFIName : null
+D/BluetoothAdapter( 2080): 1103087432: getState() :  mService = null. Returning STATE_OFF
+I/GCoreUlr( 2314): DispatchingService.onCreate()
+D/henryhuang( 2080): mWiFIName : null
+D/BluetoothAdapter( 2080): 1103087432: getState() :  mService = null. Returning STATE_OFF
+D/henryhuang( 2080): mWiFIName : null
+D/BluetoothAdapter( 2080): 1103087432: getState() :  mService = null. Returning STATE_OFF
+D/henryhuang( 2080): mWiFIName : null
+D/BluetoothAdapter( 2080): 1103087432: getState() :  mService = null. Returning STATE_OFF
+D/henryhuang( 2080): mWiFIName : null
+D/BluetoothAdapter( 2080): 1103087432: getState() :  mService = null. Returning STATE_OFF
+D/henryhuang( 2080): mWiFIName : null
+I/wpa_supplicant( 2145): wlan0: Associated with c0:4a:00:f7:8c:04
+D/AlarmManager( 2015): Target = com.google.android.gms creator = com.google.android.gms type = 3 action = null
+I/wpa_supplicant( 2145): wlan0: WPA: Key negotiation completed with c0:4a:00:f7:8c:04 [PTK=CCMP GTK=CCMP]
+I/wpa_supplicant( 2145): wlan0: CTRL-EVENT-CONNECTED - Connection to c0:4a:00:f7:8c:04 completed (auth) [id=0 id_str=]
+I/fsck_msdos( 1506): ** Phase 4 - Checking for Lost Files
+E/wpa_supplicant( 2145): wpa_driver_nl80211_driver_cmd: failed to issue private commands
+E/WifiStateMachine( 2015): Unexpected BatchedScanResults :null
+E/wpa_supplicant( 2145): wpa_driver_nl80211_driver_cmd: failed to issue private commands
+V/ProvidersChangedReceiver( 2314): calling applySettings
+I/GCoreUlr( 2314): WorldUpdater received intent Intent { act=com.google.android.location.reporting.ACTION_UPDATE_WORLD cmp=com.google.android.gms/com.google.android.location.reporting.service.DispatchingService (has extras) } with receiverAction android.location.PROVIDERS_CHANGED
+I/fsck_msdos( 1506): 2311 files, 1521844 free (5623341 clusters)
+D/GeofencerStateMachine( 2314): Creating GeofencerStateMachine
+D/AlarmManager( 2015): Target = com.google.android.gms creator = com.google.android.gms type = 3 action = null
+I/Vold    ( 1506): Filesystem check completed OK
+D/Vold    ( 1506): blkid identified as /dev/block/vold/179:49: LABEL="ONDA_MID" UUID="28AE-1B00" TYPE="vfat" 
+D/Vold    ( 1506): Volume extsd state changing 3 (Checking) -> 4 (Mounted)
+I/Vold    ( 1506): Volume::mountVol: getState=4, State_Mounted=4
+D/MountService( 2015): volume state changed for /mnt/extsd (checking -> mounted)
+E/VoldConnector( 2015): NDC Command {3 volume mount /mnt/extsd} took too long (3428ms)
+D/MountService( 2015): sendStorageIntent Intent { act=android.intent.action.MEDIA_MOUNTED dat=file:///mnt/extsd (has extras) } to UserHandle{-1}
+I/Vold    ( 1506): Volume::mountVol: getMountpoint() /mnt/sdcard
+I/Vold    ( 1506): /dev/block/vold/179:1 being considered for volume sdcard
+D/Vold    ( 1506): Volume sdcard state changing 1 (Idle-Unmounted) -> 3 (Checking)
+I/Vold    ( 1506): Exfat::check
+I/fsck.exfat( 1506): exfatfsck 0.9.5
+D/MountService( 2015): volume state changed for /mnt/sdcard (unmounted -> checking)
+D/MountService( 2015): sendStorageIntent Intent { act=android.intent.action.MEDIA_CHECKING dat=file:///mnt/sdcard (has extras) } to UserHandle{-1}
+I/fsck.exfat( 1506): ERROR: exFAT file system is not found.
+I/fsck.exfat( 1506): fsck.exfat terminated by exit(1)
+E/Vold    ( 1506): Filesystem check failed (unknown exit code 1)
+I/Vold    ( 1506): Fat::check /dev/block/vold/179:1
+D/AlarmManager( 2015): Target = com.google.android.gms creator = com.google.android.gms type = 3 action = null
+I/fsck_msdos( 1506): ** /dev/block/vold/179:1
+I/GCoreUlr( 2314): Starting service, intent=Intent { act=com.google.android.location.reporting.ACTION_UPDATE_WORLD cmp=com.google.android.gms/com.google.android.location.reporting.service.DispatchingService (has extras) }, extras=Bundle[{receiverAction=android.location.PROVIDERS_CHANGED}]
+V/GeofencerHelper( 2314): Initializing geofence's system cache.
+V/PlaceSubscriptionManager( 2314): Initializing PlaceSubscriptionManager's system cache.
+I/fsck_msdos( 1506): ** Phase 1 - Read FAT (compare skipped)
+I/fsck_msdos( 1506): Attempting to allocate 18740 KB for FAT
+D/BluetoothAdapter( 2148): 1099426120: getState() :  mService = null. Returning STATE_OFF
+I/GCoreUlr( 2314): Ensuring that reporting is stopped because of reasons: (no Google accounts)
+I/ActivityManager( 2015): Start proc com.google.android.partnersetup for broadcast com.google.android.partnersetup/.PhoneStateReceiver: pid=2415 uid=10010 gids={50010, 3003}
+D/GCoreFlp( 2314): Unknown pending intent to remove.
+I/GCoreUlr( 2314): Unbound from all location providers
+I/GCoreUlr( 2314): WorldUpdater received intent Intent { act=com.google.android.location.reporting.ACTION_UPDATE_WORLD cmp=com.google.android.gms/com.google.android.location.reporting.service.DispatchingService (has extras) } with receiverAction android.location.PROVIDERS_CHANGED
+I/GCoreUlr( 2314): Ensuring that reporting is stopped because of reasons: (no Google accounts)
+D/GCoreFlp( 2314): Unknown pending intent to remove.
+I/GCoreUlr( 2314): Unbound from all location providers
+D/GeofenceStateCache( 2314): Recovered 0 geofences.
+I/Choreographer( 2080): Skipped 137 frames!  The application may be doing too much work on its main thread.
+W/WindowManager( 2015): Window freeze timeout expired.
+W/WindowManager( 2015): Force clearing orientation change: Window{41b868d8 u0 NavigationBar}
+W/WindowManager( 2015): Force clearing orientation change: Window{41ec9838 u0 StatusBar}
+D/SizeAdaptiveLayout( 2080): com.android.internal.widget.SizeAdaptiveLayout{41ce6818 V.E..... ......I. 0,0-0,0 #7f070058 app:id/adaptive}child view android.widget.LinearLayout{41cef388 G.E..... ......ID 0,0-0,0 #10202de android:id/status_bar_latest_event_content} measured out of bounds at 120px clamped to 128px
+D/SizeAdaptiveLayout( 2080): com.android.internal.widget.SizeAdaptiveLayout{41ce6818 V.E..... ......I. 0,0-0,0 #7f070058 app:id/adaptive}child view android.widget.LinearLayout{41cef388 G.E..... ......ID 0,0-0,0 #10202de android:id/status_bar_latest_event_content} measured out of bounds at 120px clamped to 128px
+D/SizeAdaptiveLayout( 2080): com.android.internal.widget.SizeAdaptiveLayout{41ce6818 V.E..... ......I. 0,0-0,0 #7f070058 app:id/adaptive}child view android.widget.LinearLayout{41cef388 G.E..... ......ID 0,0-0,0 #10202de android:id/status_bar_latest_event_content} measured out of bounds at 120px clamped to 128px
+D/SizeAdaptiveLayout( 2080): com.android.internal.widget.SizeAdaptiveLayout{41ce6818 V.E..... ......I. 0,0-0,0 #7f070058 app:id/adaptive}child view android.widget.LinearLayout{41cef388 G.E..... ......ID 0,0-0,0 #10202de android:id/status_bar_latest_event_content} measured out of bounds at 120px clamped to 128px
+D/SizeAdaptiveLayout( 2080): com.android.internal.widget.SizeAdaptiveLayout{41ce6818 V.E..... ......I. 0,0-0,0 #7f070058 app:id/adaptive}child view android.widget.LinearLayout{41cef388 G.E..... ......ID 0,0-0,0 #10202de android:id/status_bar_latest_event_content} measured out of bounds at 120px clamped to 128px
+D/SizeAdaptiveLayout( 2080): com.android.internal.widget.SizeAdaptiveLayout{41ce6818 V.E..... ......I. 0,0-0,0 #7f070058 app:id/adaptive}child view android.widget.LinearLayout{41cef388 G.E..... ......ID 0,0-0,0 #10202de android:id/status_bar_latest_event_content} measured out of bounds at 120px clamped to 128px
+I/GeofencerStateMachine( 2314): Network location disabled.
+D/AlarmManager( 2015): Target = com.google.android.gms creator = com.google.android.gms type = 3 action = null
+V/KeyguardHostView( 2080): music state changed: 0
+D/WindowManager( 2015): setSystemUiVisibility start color:0 attrs:WM.LayoutParams{(0,0)(fillxfill) sim=#10 ty=2004 fl=#d030100 statusBarColor=0 pfl=0xa fmt=-3 wanim=0x7f0d0003 or=2 vsysui=0x600700 if=0x4 userActivityTimeout=10000}
+D/WindowManager( 2015): setSystemUiVisibility ent
+V/CommandQ( 2080):  0 color:0
+I/MultiDex( 2352): load(/system/priv-app/GmsCore.apk, forceReload=false)
+I/MultiDex( 2352): Need extracted file /data/data/com.google.android.gms/files/secondary-dexes/GmsCore.apk.classes2.zip
+I/MultiDex( 2352): No extraction needed for /data/data/com.google.android.gms/files/secondary-dexes/GmsCore.apk.classes2.zip of size 1547068
+D/AlarmManager( 2015): Target = android creator = android type = 3 action = android.net.wifi.DHCP_RENEW
+D/WifiStateMachine( 2015): VerifyingLinkState enter
+D/WifiStateMachine( 2015): VerifyingLinkState GOOD_LINK_DETECTED: transition to captive portal check
+D/WifiStateMachine( 2015): CaptivePortalCheckState enter
+D/WifiStateMachine( 2015): CaptivePortalCheckState CMD_CAPTIVE_CHECK_COMPLETE
+D/ConnectivityService( 2015): Captive portal check NetworkInfo: type: WIFI[], state: CONNECTING/CAPTIVE_PORTAL_CHECK, reason: (unspecified), extra: "Great-Wi-Fi", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false
+D/ConnectivityService( 2015): handleCaptivePortalTrackerCheck: call captivePortalCheckComplete ni=NetworkInfo: type: WIFI[], state: CONNECTING/CAPTIVE_PORTAL_CHECK, reason: (unspecified), extra: "Great-Wi-Fi", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false
+D/ConnectivityService( 2015): ConnectivityChange for WIFI: CONNECTED/CONNECTED
+E/ConnectivityService( 2015): Unexpected mtu value: android.net.wifi.WifiStateTracker@41b704e0
+D/BluetoothAdapter( 2148): 1099426120: getState() :  mService = null. Returning STATE_OFF
+D/Nat464Xlat( 2015): requiresClat: netType=1, hasIPv4Address=true
+V/KeyguardServiceDelegate( 2015): **** SHOWN CALLED ****
+I/Choreographer( 2080): Skipped 37 frames!  The application may be doing too much work on its main thread.
+W/ResourceType( 2080): No known package when getting value for resource number 0x7f0a00fe
+I/GCM     ( 2352): GCM config loaded
+D/GCM     ( 2352): GcmService start Intent { act=com.google.android.gms.INITIALIZE flg=0x10 pkg=com.google.android.gms cmp=com.google.android.gms/.gcm.GcmService } com.google.android.gms.INITIALIZE
+D/GCM     ( 2352): GcmService start Intent { act=com.google.android.gms.INITIALIZE flg=0x10 pkg=com.google.android.gms cmp=com.google.android.gms/.gcm.GcmService } com.google.android.gms.INITIALIZE
+I/ActivityManager( 2015): Start proc com.softwinner.fireplayer for broadcast com.softwinner.fireplayer/com.softwinner.service.SoftWinnerServiceReceiver: pid=2473 uid=10021 gids={50021, 3003, 1028, 1015}
+I/SurfaceFlinger( 1511): Boot is finished (17011 ms)
+D/AudioService( 2015): ACTION_BOOT_COMPLETED in AudioService.java
+W/ContextImpl( 2015): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.wm.WindowManagerService.performEnableScreen:5411 com.android.server.wm.WindowManagerService$H.handleMessage:7403 android.os.Handler.dispatchMessage:102 android.os.Looper.loop:136 
+D/BluetoothManagerService( 2015): Message: 30
+W/ContextImpl( 2015): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1543 android.bluetooth.BluetoothHeadset.doBind:283 android.bluetooth.BluetoothHeadset.<init>:276 android.bluetooth.BluetoothAdapter.getProfileProxy:1181 android.media.AudioService.getBluetoothHeadset:2253 
+D/BluetoothManagerService( 2015): Message: 30
+W/ContextImpl( 2015): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1543 android.bluetooth.BluetoothA2dp.doBind:165 android.bluetooth.BluetoothA2dp.<init>:158 android.bluetooth.BluetoothAdapter.getProfileProxy:1184 android.media.AudioService$AudioServiceBroadcastReceiver.onReceive:4196 
+V/WiredAccessoryManager( 2015): init()
+D/PhoneStatusBar( 2080): disable: < expand icons alerts ticker system_info BACK* HOME* RECENT clock search >
+V/CommandQ( 2080):  1 color:0
+I/fsck_msdos( 1506): ** Phase 2 - Check Cluster Chains
+D/LocalMediaProvider( 2473): LocalMediaProvider onCreate
+D/AwesomePlayer( 1514): Calling process is: system_server
+W/ActivityThread( 2352): ClassLoader.loadClass: The class loader returned by Thread.getContextClassLoader() may fail for processes that host multiple applications. You should explicitly specify a context class loader. For example: Thread.setContextClassLoader(getClass().getClassLoader());
+D/AwesomePlayer( 1514): Calling process is: system_server
+D/PhoneStatusBar( 2080): Owenli notification total:2, current:0, pkg:com.android.systemui, is clearable:false
+D/PhoneStatusBar( 2080): Owenli notification total:2, current:1, pkg:android, is clearable:false
+D/BluetoothAdapter( 2080): 1103087432: getState() :  mService = null. Returning STATE_OFF
+D/BluetoothAdapter( 2080): 1103087432: getState() :  mService = null. Returning STATE_OFF
+I/fsck_msdos( 1506): ** Phase 3 - Checking Directories
+I/fsck_msdos( 1506): ** Phase 4 - Checking for Lost Files
+D/AwesomePlayer( 1514): Calling process is: system_server
+I/DynamicPManagerService( 2015): boot completed
+D/GCM     ( 2352): Connected
+D/AlarmManager( 2015): Target = com.google.android.gms creator = com.google.android.gms type = 3 action = com.google.android.intent.action.MCS_HEARTBEAT
+D/AlarmManager( 2015): Target = android creator = android type = 3 action = android.content.syncmanager.SYNC_ALARM
+I/fsck_msdos( 1506): Next free cluster in FSInfo block (1888) not free
+I/fsck_msdos( 1506): FIXED
+I/fsck_msdos( 1506): 76 files, 2404516 free (4795433 clusters)
+I/PowerManagerService( 2015): Boot animation finished.
+D/AwesomePlayer( 1514): Calling process is: system_server
+D/GCM     ( 2352): Message class ino
+D/PhoneStatusBar( 2080): @@@@@@@@@@@@@@@@@@@@@@@@@@@@ACTION_SCREEN_ON mNavigationBarView INVISIBLE
+I/Vold    ( 1506): Filesystem check completed OK
+D/AlarmManager( 2015): Target = com.google.android.gms creator = com.google.android.gms type = 3 action = com.google.android.intent.action.MCS_HEARTBEAT
+D/Vold    ( 1506): blkid identified as /dev/block/vold/179:1: LABEL="ONDA_MID" UUID="335D-1211" TYPE="vfat" 
+D/Vold    ( 1506): Volume sdcard state changing 3 (Checking) -> 4 (Mounted)
+I/Vold    ( 1506): Volume::mountVol: getState=4, State_Mounted=4
+I/RecoverySystem( 2015): No recovery log file
+I/ActivityManager( 2015): Start proc com.android.providers.calendar for broadcast com.android.providers.calendar/.CalendarReceiver: pid=2520 uid=10001 gids={50001, 3003, 1028, 1015}
+D/AwesomePlayer( 1514): Calling process is: system_server
+E/VoldConnector( 2015): NDC Command {4 volume mount /mnt/sdcard} took too long (1868ms)
+I/PackageManager( 2015): Updating external media status from unmounted to mounted
+D/MountService( 2015): volume state changed for /mnt/sdcard (checking -> mounted)
+D/MountService( 2015): sendStorageIntent Intent { act=android.intent.action.MEDIA_MOUNTED dat=file:///mnt/sdcard (has extras) } to UserHandle{-1}
+I/BootReceiver( 2015): Copying audit failures to DropBox
+I/BootReceiver( 2015): Checking for fsck errors
+D/AwesomePlayer( 1514): Calling process is: system_server
+I/ActivityManager( 2015): START u0 {flg=0x10000000 cmp=com.android.systemui/.usb.UsbStorageActivity} from pid -1
+I/ActivityManager( 2015): performance mode unset
+W/ContextImpl( 2015): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.am.ActivityStackSupervisor.startActivityLocked:1118 com.android.server.am.ActivityStackSupervisor.startActivityMayWait:744 com.android.server.am.ActivityManagerService.startActivityInPackage:3317 com.android.server.am.PendingIntentRecord.sendInner:252 
+D/PermissionCache( 1511): checking android.permission.READ_FRAME_BUFFER for uid=1000 => granted (639 us)
+D/PhoneStatusBar( 2080): Owenli notification total:3, current:0, pkg:com.android.systemui, is clearable:false
+D/PhoneStatusBar( 2080): Owenli notification total:3, current:1, pkg:com.android.systemui, is clearable:false
+D/PhoneStatusBar( 2080): Owenli notification total:3, current:2, pkg:android, is clearable:false
+D/ConnectivityService( 2015): handleInetConditionHoldEnd: net=1, condition=100, published condition=0
+I/CalendarProvider2( 2520): Created com.android.providers.calendar.CalendarAlarmManager@4188e3d8(com.android.providers.calendar.CalendarProvider2@41886f88)
+D/AlarmManager( 2015): Target = com.android.providers.calendar creator = com.android.providers.calendar type = 2 action = com.android.providers.calendar.intent.CalendarProvider2
+I/ActivityManager( 2015): Start proc com.google.android.configupdater for broadcast com.google.android.configupdater/.CertPin.CertPinUpdateRequestReceiver: pid=2551 uid=10002 gids={50002, 3003, 2001}
+I/ActivityManager( 2015): Displayed com.android.systemui/.usb.UsbStorageActivity: +422ms
+I/ActivityManager( 2015): Timeline: Activity_windows_visible id: com.android.systemui time:24285
+E/UpdateRequestReceiver( 2551): ignoring update request
+E/UpdateRequestReceiver( 2551): ignoring update request
+E/UpdateRequestReceiver( 2551): ignoring update request
+E/UpdateRequestReceiver( 2551): ignoring update request
+E/UpdateRequestReceiver( 2551): ignoring update request
+E/UpdateRequestReceiver( 2551): ignoring update request
+V/audio_hw_primary( 1514): start_output_stream, line: 739
+D/audio_hw_primary( 1514): line:655,select_output_device,adev->mode:0, AUDIO_MODE_RINGTONE:1, AUDIO_MODE_NORMAL:0
+V/audio_hw_primary( 1514): huangxin------normal mode, ****LINE:657,FUNC:select_output_device, adev->out_device:2
+V/codec_audio_pad( 1514): in normal mode, headset or speaker on,****LINE:74,FUNC:set_normal_path
+V/audio_hw_primary( 1514): normal mode , speaker,****LINE:659,FUNC:select_output_device
+V/audio_hw_primary( 1514): start_output_stream: card:0, port:0, rate:44100
+V/audio_hw_primary( 1514): do not use out resampler
+D/WindowManager( 2015): setSystemUiVisibility start color:0 attrs:WM.LayoutParams{(0,0)(fillxfill) sim=#120 ty=1 fl=#1c10100 statusBarColor=0 pfl=0x8 wanim=0x10302f5}
+D/WindowManager( 2015): setSystemUiVisibility ent
+V/CommandQ( 2080):  0 color:0
+D/ConnectivityService( 2015): handleConnectivityChange: addresses changed linkProperty[1]: resetMask=0
+D/ConnectivityService( 2015):    car=removed=[] added=[fe80::9a3b:16ff:fedf:969c/64,]
+D/Nat464Xlat( 2015): requiresClat: netType=1, hasIPv4Address=true
+I/ActivityManager( 2015): Start proc com.google.android.onetimeinitializer for broadcast com.google.android.onetimeinitializer/.OneTimeInitializerReceiver: pid=2589 uid=10009 gids={50009}
+V/AuthZen ( 2243): Received a GCM message.
+D/GCM     ( 2352): GcmService start Intent { act=android.intent.action.BOOT_COMPLETED flg=0x8000010 cmp=com.google.android.gms/.gcm.GcmService (has extras) } android.intent.action.BOOT_COMPLETED
+V/AuthZen ( 2243): [DefaultAuthzenGcmReceiverDelegateService] Received an Authzen GCM message.
+V/OneTimeInitializerReceiver( 2589): OneTimeInitializerReceiver.onReceive
+V/OneTimeService( 2589): OneTimeService.onHandleIntent
+D/PhoneStatusBar( 2080): @@@@@@@@@@@@@@@@@@@@@@@@@@@@ACTION_USER_PRESENT mNavigationBarView VISIBLE
+D/PhoneStatusBar( 2080): @@@@@@@@@@@@@@@@@@@@@@@@@@@@ACTION_USER_PRESENT mNavigationBarView VISIBLE
+D/PhoneStatusBar( 2080): @@@@@@@@@@@@@@@@@@@@@@@@@@@@ACTION_USER_PRESENT mNavigationBarView VISIBLE
+D/PhoneStatusBar( 2080): disable: < expand icons alerts ticker system_info back* home* recent* clock search >
+V/CommandQ( 2080):  1 color:0
+I/ActivityManager( 2015): Delay finish: com.google.android.partnersetup/.GooglePartnerSetup
+D/PhoneStatusBar( 2080): @@@@@@@@@@@@@@@@@@@@@@@@@@@@ACTION_USER_PRESENT mNavigationBarView VISIBLE
+D/PhoneStatusBar( 2080): @@@@@@@@@@@@@@@@@@@@@@@@@@@@ACTION_USER_PRESENT mNavigationBarView VISIBLE
+D/PhoneStatusBar( 2080): @@@@@@@@@@@@@@@@@@@@@@@@@@@@ACTION_USER_PRESENT mNavigationBarView VISIBLE
+I/ActivityManager( 2015): Resuming delayed broadcast
+I/ActivityManager( 2015): Delay finish: com.google.android.partnersetup/.RlzPingBroadcastReceiver
+D/PhoneStatusBar( 2080): @@@@@@@@@@@@@@@@@@@@@@@@@@@@ACTION_USER_PRESENT mNavigationBarView VISIBLE
+D/BluetoothAdapter( 2080): 1103087432: getState() :  mService = null. Returning STATE_OFF
+D/BluetoothAdapter( 2080): 1103087432: getState() :  mService = null. Returning STATE_OFF
+E/VoldConnector( 2015): NDC Command {7 volume shared /mnt/sdcard ums} took too long (704ms)
+I/PackageManager( 2015): No secure containers on sdcard
+E/VoldConnector( 2015): NDC Command {6 asec list} took too long (1120ms)
+W/PackageManager( 2015): Not granting permission android.permission.CALL_PRIVILEGED to package com.android.contacts (protectionLevel=18 flags=0xc8be45)
+W/PackageManager( 2015): Not granting permission android.permission.MODIFY_PHONE_STATE to package com.android.contacts (protectionLevel=18 flags=0xc8be45)
+W/PackageManager( 2015): Not granting permission android.permission.ALLOW_ANY_CODEC_FOR_PLAYBACK to package com.android.contacts (protectionLevel=18 flags=0xc8be45)
+W/PackageManager( 2015): Not granting permission android.permission.REBOOT to package com.android.contacts (protectionLevel=18 flags=0xc8be45)
+W/PackageManager( 2015): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.google.android.onetimeinitializer
+W/PackageManager( 2015): Unknown permission com.android.launcher.permission.WRITE_SETTINGS in package com.google.android.onetimeinitializer
+W/PackageManager( 2015): Unknown permission com.android.launcher.permission.PRELOAD_WORKSPACE in package com.google.android.partnersetup
+W/PackageManager( 2015): Not granting permission android.permission.WRITE_MEDIA_STORAGE to package com.android.calculator2 (protectionLevel=18 flags=0x88be45)
+W/PackageManager( 2015): Not granting permission android.permission.WRITE_MEDIA_STORAGE to package com.jui.gallery3d (protectionLevel=18 flags=0x98bc45)
+W/PackageManager( 2015): Not granting permission android.permission.MOUNT_UNMOUNT_FILESYSTEMS to package com.jui.gallery3d (protectionLevel=18 flags=0x98bc45)
+D/AuthZen ( 2243): authzen received event: android.intent.action.BOOT_COMPLETED
+W/PackageManager( 2015): Unknown permission com.android.vending.billing.IBillingAccountService.BIND2 in package com.google.android.gsf.login
+W/PackageManager( 2015): Unknown permission com.google.android.gallery3d.permission.GALLERY_PROVIDER in package com.android.bluetooth
+W/PackageManager( 2015): Unknown permission com.android.gallery3d.permission.GALLERY_PROVIDER in package com.android.bluetooth
+W/PackageManager( 2015): Unknown permission android.permission.MMS_SEND_OUTBOX_MSG in package com.android.bluetooth
+W/PackageManager( 2015): Unknown permission com.htc.launcher.permission.READ_SETTINGS in package com.teslacoilsw.launcher
+W/PackageManager( 2015): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.teslacoilsw.launcher
+W/PackageManager( 2015): Unknown permission com.cyanogenmod.trebuchet.permission.READ_SETTINGS in package com.teslacoilsw.launcher
+W/PackageManager( 2015): Unknown permission org.adw.launcher.permission.READ_SETTINGS in package com.teslacoilsw.launcher
+W/PackageManager( 2015): Unknown permission org.adwfreak.launcher.permission.READ_SETTINGS in package com.teslacoilsw.launcher
+W/PackageManager( 2015): Unknown permission com.anddoes.launcher.permission.READ_SETTINGS in package com.teslacoilsw.launcher
+W/PackageManager( 2015): Unknown permission com.google.android.launcher.permission.READ_SETTINGS in package com.teslacoilsw.launcher
+W/PackageManager( 2015): Unknown permission android.permission.READ_MEDIA_STORAGE in package com.android.awgallery
+W/PackageManager( 2015): Not granting permission android.permission.WRITE_MEDIA_STORAGE to package com.android.awgallery (protectionLevel=18 flags=0x88bc45)
+W/PackageManager( 2015): Not granting permission android.permission.SET_ANIMATION_SCALE to package com.android.awgallery (protectionLevel=50 flags=0x88bc45)
+W/PackageManager( 2015): Not granting permission android.permission.MOUNT_UNMOUNT_FILESYSTEMS to package com.android.awgallery (protectionLevel=18 flags=0x88bc45)
+W/PackageManager( 2015): Not granting permission android.permission.ACCESS_DOWNLOAD_MANAGER to package com.android.browser (protectionLevel=18 flags=0x89be45)
+W/PackageManager( 2015): Not granting permission android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS to package com.android.browser (protectionLevel=2 flags=0x89be45)
+W/PackageManager( 2015): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.android.onetimeinitializer
+W/PackageManager( 2015): Unknown permission com.android.launcher.permission.WRITE_SETTINGS in package com.android.onetimeinitializer
+W/PackageManager( 2015): Not granting permission android.permission.BROADCAST_PACKAGE_REMOVED to package com.google.android.marvin.talkback (protectionLevel=2 flags=0xc9be45)
+W/PackageManager( 2015): Unknown permission com.google.android.gallery3d.permission.PICASA_STORE in package com.android.dreams.phototable
+W/PackageManager( 2015): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.android.settings
+W/PackageManager( 2015): Unknown permission com.android.launcher.permission.WRITE_SETTINGS in package com.android.settings
+W/PackageManager( 2015): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.google.android.googlequicksearchbox
+W/PackageManager( 2015): Unknown permission com.android.launcher.permission.WRITE_SETTINGS in package com.google.android.googlequicksearchbox
+W/PackageManager( 2015): Unknown permission com.google.android.voicesearch.SHORTCUTS_ACCESS in package com.google.android.googlequicksearchbox
+W/PackageManager( 2015): Unknown permission com.google.android.voicesearch.ACCESS_SETTINGS in package com.google.android.googlequicksearchbox
+W/PackageManager( 2015): Unknown permission com.google.android.ears.permission.WRITE in package com.google.android.googlequicksearchbox
+W/PackageManager( 2015): Unknown permission com.google.android.apps.googlevoice.permission.AUTO_SEND in package com.google.android.googlequicksearchbox
+W/PackageManager( 2015): Unknown permission com.google.android.gm.permission.AUTO_SEND in package com.google.android.googlequicksearchbox
+W/PackageManager( 2015): Not granting permission android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS to package com.android.vending (protectionLevel=2 flags=0x408abe45)
+W/PackageManager( 2015): Unknown permission android.permission.SEND_SMS_NO_CONFIRMATION in package com.android.vending
+W/PackageManager( 2015): Not granting permission android.permission.READ_LOGS to package com.softwinner.fireplayer (protectionLevel=50 flags=0x88be45)
+W/PackageManager( 2015): Not granting permission android.permission.INSTALL_PACKAGES to package com.softwinner.fireplayer (protectionLevel=18 flags=0x88be45)
+W/PackageManager( 2015): Unknown permission android.permission.USES_POLICY_FORCE_LOCK in package com.android.systemui
+W/PackageManager( 2015): Not granting permission android.permission.INSTALL_PACKAGES to package com.jianui.filemanager (protectionLevel=18 flags=0x88be45)
+W/PackageManager( 2015): Not granting permission android.permission.DELETE_PACKAGES to package com.jianui.filemanager (protectionLevel=18 flags=0x88be45)
+W/PackageManager( 2015): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.jianui.filemanager
+W/PackageManager( 2015): Unknown permission com.android.launcher.permission.WRITE_SETTINGS in package com.jianui.filemanager
+W/PackageManager( 2015): Not granting permission android.permission.MOUNT_UNMOUNT_FILESYSTEMS to package com.jianui.filemanager (protectionLevel=18 flags=0x88be45)
+W/PackageManager( 2015): Not granting permission android.permission.ACCOUNT_MANAGER to package com.jianui.filemanager (protectionLevel=2 flags=0x88be45)
+W/PackageManager( 2015): Not granting permission android.permission.WRITE_MEDIA_STORAGE to package com.estrongs.android.pop (protectionLevel=18 flags=0xc8be44)
+W/PackageManager( 2015): Unknown permission .PERMISSION in package com.estrongs.android.pop
+W/PackageManager( 2015): Not granting permission android.permission.REBOOT to package eu.chainfire.supersu (protectionLevel=18 flags=0x883e05)
+W/PackageManager( 2015): Not granting permission android.permission.DEVICE_POWER to package com.android.deskclock (protectionLevel=2 flags=0x88be45)
+W/PackageManager( 2015): Not granting permission android.permission.READ_DREAM_STATE to package com.google.android.gsf (protectionLevel=2 flags=0x40883e45)
+W/PackageManager( 2015): Unknown permission com.chrome.permission.DEVICE_EXTRAS in package com.android.chrome
+W/PackageManager( 2015): Unknown permission com.sec.enterprise.knox.MDM_CONTENT_PROVIDER in package com.android.chrome
+D/AlarmManager( 2015): Target = com.google.android.gms creator = com.google.android.gms type = 1 action = com.google.android.gms.recovery.WAKEUP
+I/ActivityManager( 2015): Resuming delayed broadcast
+I/GCoreUlr( 2243): Starting service, intent=Intent { act=com.google.android.location.reporting.ACTION_UPDATE_WORLD cmp=com.google.android.gms/com.google.android.location.reporting.service.DispatchingService (has extras) }, extras=Bundle[{receiverAction=android.intent.action.BOOT_COMPLETED}]
+I/GCoreUlr( 2314): WorldUpdater received intent Intent { act=com.google.android.location.reporting.ACTION_UPDATE_WORLD cmp=com.google.android.gms/com.google.android.location.reporting.service.DispatchingService (has extras) } with receiverAction android.intent.action.BOOT_COMPLETED
+I/ActivityManager( 2015): Delay finish: com.google.android.gsf/.checkin.CheckinService$Receiver
+I/AuthZen ( 2243): Fetching signing key...
+D/AlarmManager( 2015): Target = com.google.android.gsf creator = com.google.android.gsf type = 1 action = null
+I/ActivityManager( 2015): Resuming delayed broadcast
+I/CalendarProvider2( 2520): Sending notification intent: Intent { act=android.intent.action.PROVIDER_CHANGED dat=content://com.android.calendar }
+W/ContentResolver( 2520): Failed to get type for: content://com.android.calendar (Unknown URL content://com.android.calendar)
+D/dalvikvm( 2243): No JNI_OnLoad found in /system/lib/libAppDataSearch.so 0x4187a898, skipping init
+I/RlzPingService( 2415): Setting next ping for 1441035678836
+D/AlarmManager( 2015): Target = com.google.android.partnersetup creator = com.google.android.partnersetup type = 1 action = null
+D/AlarmManager( 2015): Target = com.google.android.gsf creator = com.google.android.gsf type = 1 action = null
+I/AuthZen ( 2243): Creating new signing Keys for handle: device_key
+D/AuthZen ( 2243): Adding new credential
+D/AlarmManager( 2015): Target = com.google.android.gms creator = com.google.android.gms type = 1 action = com.google.android.gms.icing.INDEX_RECURRING_MAINTENANCE
+I/SystemUpdateService( 2352): cancelUpdate (empty URL)
+I/AuthZen ( 2243): Signing key fetched successfuly!
+D/AlarmManager( 2015): Target = com.google.android.gms creator = com.google.android.gms type = 1 action = com.google.android.gms.auth.authzen.CHECK_REGISTRATION
+I/SystemUpdateService( 2352): cancelUpdate (empty URL)
+I/GCoreUlr( 2314): Ensuring that reporting is stopped because of reasons: (no Google accounts)
+D/GCoreFlp( 2314): Unknown pending intent to remove.
+I/GCoreUlr( 2314): Unbound from all location providers
+I/ActivityManager( 2015): Start proc com.android.onetimeinitializer for broadcast com.android.onetimeinitializer/.OneTimeInitializerReceiver: pid=2643 uid=10013 gids={50013}
+V/OneTimeInitializerRece( 2643): OneTimeInitializerReceiver.onReceive
+I/ActivityManager( 2015): Start proc com.android.vending for broadcast com.android.vending/com.google.android.finsky.receivers.BootCompletedReceiver: pid=2657 uid=10014 gids={50014, 3003, 1028, 1015}
+D/Finsky  ( 2657): [1] FinskyApp.onCreate: Initializing network with DFE https://android.clients.google.com/fdfe/
+W/MediaProvider( 2189): no database for scanned volume external
+D/Tethering( 2015): MasterInitialState.processMessage what=3
+D/CaptivePortalTracker( 2015): NoActiveNetworkState{ when=0 what=1 obj=NetworkInfo: type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: "Great-Wi-Fi", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false target=com.android.internal.util.StateMachine$SmHandler }
+D/        ( 2015): Setting time of day to sec=1440430879
+D/BluetoothAdapter( 2080): 1103087432: getState() :  mService = null. Returning STATE_OFF
+D/henryhuang( 2080): mWiFIName : Great-Wi-Fi
+D/Finsky  ( 2657): [1] DailyHygiene.goMakeHygieneIfDirty: Dirty, need more hygiene.
+D/AlarmManager( 2015): Target = android creator = android type = 3 action = com.android.server.NetworkTimeUpdateService.action.POLL
+V/        ( 2080): result:15:41
+D/AlarmManager( 2015): Target = com.android.vending creator = com.android.vending type = 1 action = null
+D/GpsLocationProvider( 2015): NTP server returned: 1440430876763 (Mon Aug 24 15:41:16 GMT+00:00 2015) reference: 22723 certainty: 25 system time offset: -3001
+V/        ( 2080): result:15:41
+W/Settings( 2657): Setting download_manager_max_bytes_over_mobile has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+W/Settings( 2657): Setting download_manager_recommended_max_bytes_over_mobile has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+W/Finsky  ( 2657): [1] FinskyApp.getCurrentAccount: No account configured on this device.
+W/Finsky  ( 2657): [1] FinskyApp.getDfeApi: No account configured on this device.
+I/ActivityManager( 2015): Start proc com.google.android.googlequicksearchbox:search for broadcast com.google.android.googlequicksearchbox/com.google.android.search.core.StartUpReceiver: pid=2692 uid=10017 gids={50017, 3003, 1028, 3002, 1015}
+D/Finsky  ( 2657): [1] GmsCoreHelper.cleanupNlp: result=false type=4
+D/Finsky  ( 2657): [1] RestoreTracker.stopServiceIfDone: Restore complete with 0 success and 0 failed.
+D/HandsFreeActivity( 2692): shouldBeEnabled: locale=en-US
+D/HandsFreeActivity( 2692): Voice dialer enabled state: true
+I/Velvet.VelvetFactory( 2692): refreshing search history.
+I/ActivityManager( 2015): Start proc com.google.android.calendar for broadcast com.google.android.calendar/com.android.calendar.alerts.AlertReceiver: pid=2717 uid=10025 gids={50025, 3003}
+W/GAV2    ( 2692): Thread[Thread-81,5,main]: Need to call initialize() and be in fallback mode to start dispatch.
+W/GAV2    ( 2692): Thread[Thread-81,5,main]: dispatch call queued.  Need to call GAServiceManager.getInstance().initialize().
+W/Search.SearchUrlHelper( 2692): Auth token not ready, no auth header set.
+D/AlertReceiver( 2717): onReceive: a=android.intent.action.BOOT_COMPLETED Intent { act=android.intent.action.BOOT_COMPLETED flg=0x8000010 cmp=com.google.android.calendar/com.android.calendar.alerts.AlertReceiver (has extras) }
+D/AlertService( 2717): 0 Action = android.intent.action.BOOT_COMPLETED
+I/ActivityManager( 2015): Start proc com.android.email for broadcast com.android.email/.service.EmailBroadcastReceiver: pid=2747 uid=10029 gids={50029, 3003, 1028, 1015}
+D/AlertService( 2717): Scheduling next alarm with AlarmScheduler. sEventReminderReceived: null
+D/AlarmScheduler( 2717): No events found starting within 1 week.
+D/AlarmManager( 2015): Target = com.google.android.googlequicksearchbox creator = com.google.android.googlequicksearchbox type = 1 action = null
+W/Finsky  ( 2657): [1] FinskyApp.getCurrentAccount: No account configured on this device.
+W/Finsky  ( 2657): [1] FinskyApp.getDfeApi: No account configured on this device.
+D/ActivityThread( 2747): Loading provider com.android.email.provider;com.android.email.notifier: com.android.email.provider.EmailProvider
+I/ActivityManager( 2015): Start proc com.android.deskclock for broadcast com.android.deskclock/.AlarmInitReceiver: pid=2773 uid=10038 gids={50038, 1028}
+V/AlarmClock( 2773): berrytao,action:android.intent.action.BOOT_COMPLETED
+W/ActivityManager( 2015): Unable to start service Intent { cmp=com.android.email/.service.AttachmentDownloadService } U=0: not found
+W/ActivityManager( 2015): Unable to start service Intent { cmp=com.android.email/.service.AttachmentDownloadService } U=0: not found
+I/Email   ( 2747): Observing account changes for notifications
+V/AlarmClock( 2773): No next alarm
+V/AlarmClock( 2773): AlarmInitReceiver - Reset timers and clear stopwatch data
+V/AlarmClock( 2773): No next alarm
+V/AlarmClock( 2773): AlarmInitReceiver finished
+W/BroadcastQueue( 2015): Permission Denial: receiving Intent { act=android.intent.action.BOOT_COMPLETED flg=0x8000010 (has extras) } to com.jianui.filemanager/pada.juiupdate.receiver.StartUpdateServiceReceiver requires android.permission.RECEIVE_BOOT_COMPLETED due to sender null (uid 1000)
+I/LauncherIconVisibilityManager( 2175): Boot has been completed
+I/LauncherIconVisibilityManager( 2175): Activity has already been disabled: ComponentInfo{com.android.inputmethod.latin/com.android.inputmethod.latin.setup.SetupActivity}
+I/ActivityManager( 2015): Start proc com.android.exchange for service com.android.exchange/.service.EmailSyncAdapterService: pid=2791 uid=10030 gids={50030, 3003, 1028, 1015}
+I/ActivityManager( 2015): Start proc eu.chainfire.supersu for broadcast eu.chainfire.supersu/.BootCompleteReceiver: pid=2803 uid=10057 gids={50057}
+I/ActivityManager( 2015): Start proc com.jianui.update for broadcast com.jianui.update/.LoaderReceiver: pid=2818 uid=1000 gids={41000, 1028, 1015, 3002, 3001, 3003, 1004, 2002, 2001}
+D/AwesomePlayer( 1514): Calling process is: com.jianui.update
+I/LoaderReceiver.onReceive(L:77)( 2818): receive a new action : android.intent.action.BOOT_COMPLETED
+D/LoaderReceiver.onReceive(L:85)( 2818): Boot Complet
+D/LoaderReceiver.startServiceFromBootComplet(L:61)( 2818): startServiceFromBootComplet
+W/ContextImpl( 2818): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1479 android.content.ContextWrapper.startService:494 android.content.ContextWrapper.startService:494 com.jianui.update.LoaderReceiver.startServiceFromBootComplet:64 com.jianui.update.LoaderReceiver.onReceive:86 
+D/AlarmManager( 2015): Target = com.jianui.update creator = com.jianui.update type = 1 action = null
+D/UpdateService.onCreate(L:388)( 2818): onCreate
+I/ActivityManager( 2015): Start proc com.android.externalstorage for broadcast com.android.externalstorage/.MountReceiver: pid=2846 uid=10006 gids={50006, 1028, 1015, 1023}
+D/ExternalStorage( 2846): After updating volumes, found 2 active roots
+D/ExternalStorage( 2846): After updating volumes, found 2 active roots
+D/MediaScannerReceiver( 2189): action: android.intent.action.MEDIA_MOUNTED path: /mnt/extsd
+V/MediaScannerReceiver4k( 2473): >>>>>>>> onReceive action=android.intent.action.MEDIA_MOUNTED uri=file:///mnt/extsd
+D/MediaScannerReceiver4k( 2473): action: android.intent.action.MEDIA_MOUNTED path: /mnt/extsd
+V/LocalMediaScannerService( 2473): >>>> onHandleIntentandroid.intent.action.MEDIA_MOUNTED devPath = /mnt/extsd
+I/ActivityManager( 2015): Start proc com.estrongs.android.pop for broadcast com.estrongs.android.pop/.EnableOEMConfig: pid=2864 uid=10062 gids={50062, 3003, 3002, 3001, 1028, 1015}
+I/UpdateService.onStartCommand(L:411)( 2818): onStartCommand flags:0 startId1
+I/UpdateService.onStartCommand(L:417)( 2818): get a start cmd : 103
+I/UpdateService.onStartCommand(L:445)( 2818): Start from BootComplet
+D/UpdateService.syncBootInformation(L:364)( 2818): Nothing do
+V/LocalMediaScanner( 2473): scanVideosInFolder: /mnt/extsd
+D/audio_hw_primary( 1514): out_standby
+E/ObjectHelper( 2864): Can't find method:setCompatibilityInfo
+D/an      ( 2864): Refresh storage info done.19
+D/dalvikvm( 2864): Trying to load lib /data/app-lib/com.estrongs.android.pop-1/libmyaes.so 0x41877be8
+D/dalvikvm( 2864): Added shared lib /data/app-lib/com.estrongs.android.pop-1/libmyaes.so 0x41877be8
+W/ResourceType( 2864): No package identifier when getting value for resource number 0x00000000
+D/GCM     ( 2352): GcmService start Intent { act=com.google.android.gms.INITIALIZE flg=0x10 pkg=com.google.android.gms cmp=com.google.android.gms/.gcm.GcmService } com.google.android.gms.INITIALIZE
+D/ExternalStorage( 2846): After updating volumes, found 2 active roots
+D/MediaScannerReceiver( 2189): action: android.intent.action.MEDIA_MOUNTED path: /mnt/sdcard
+V/MediaScannerReceiver4k( 2473): >>>>>>>> onReceive action=android.intent.action.MEDIA_MOUNTED uri=file:///mnt/sdcard
+D/MediaScannerReceiver4k( 2473): action: android.intent.action.MEDIA_MOUNTED path: /mnt/sdcard
+D/AlertReceiver( 2717): onReceive: a=android.intent.action.PROVIDER_CHANGED Intent { act=android.intent.action.PROVIDER_CHANGED dat=content://com.android.calendar flg=0x10 cmp=com.google.android.calendar/com.android.calendar.alerts.AlertReceiver }
+V/LocalMediaScannerService( 2473): >>>> onHandleIntentandroid.intent.action.MEDIA_MOUNTED devPath = /mnt/sdcard
+I/ActivityManager( 2015): Delay finish: com.google.android.calendar/com.android.calendar.alerts.AlertReceiver
+D/AlertService( 2717): 0 Action = android.intent.action.PROVIDER_CHANGED
+V/LocalMediaScanner( 2473): scanVideosInFolder: /mnt/sdcard
+D/AlarmManager( 2015): Target = com.google.android.gms creator = com.google.android.gms type = 1 action = null
+I/ActivityManager( 2015): Resuming delayed broadcast
+D/AlarmManager( 2015): Target = com.google.android.calendar creator = com.google.android.calendar type = 1 action = com.google.android.calendar.APPWIDGET_SCHEDULED_UPDATE
+D/AlarmManager( 2015): Target = com.google.android.gms creator = com.google.android.gms type = 1 action = null
+I/ActivityManager( 2015): Start proc com.google.android.music:main for broadcast com.google.android.music/.store.MediaStoreImportService$Receiver: pid=2989 uid=10047 gids={50047, 3003, 1028, 1015}
+D/SnetService( 2243): snet destroyed
+I/MusicStore( 2989): Database version: 85
+W/ContextImpl( 2989): Implicit intents with startService are not safe: Intent { act=com.google.android.music.PREFERENCE_SERVICE } android.content.ContextWrapper.bindService:517 com.google.android.music.utils.SafeServiceConnection$ServiceConnectionImp.bindService:98 com.google.android.music.utils.SafeServiceConnection.bindService:259 
+W/ContextImpl( 2989): Implicit intents with startService are not safe: Intent { act=com.google.android.music.NETWORK_MONITOR_SERVICE } android.content.ContextWrapper.bindService:517 com.google.android.music.utils.SafeServiceConnection$ServiceConnectionImp.bindService:98 com.google.android.music.utils.SafeServiceConnection.bindService:259 
+D/AlarmManager( 2015): Target = com.google.android.calendar creator = com.google.android.calendar type = 1 action = com.google.android.calendar.APPWIDGET_SCHEDULED_UPDATE
+I/Icing   ( 2243): Storage manager: low false usage 1.18MB avail 6.40GB capacity 6.70GB
+I/MediaRouter( 2989): Found default route: MediaRouter.RouteInfo{ uniqueId=android/.support.v7.media.SystemMediaRouteProvider:DEFAULT_ROUTE, name=Tablet, description=null, enabled=true, connecting=false, playbackType=0, playbackStream=3, volumeHandling=1, volume=9, volumeMax=15, presentationDisplayId=-1, extras=null, providerPackageName=android }
+I/CastUtils( 2989): Removing provider: MediaRouter.RouteProviderInfo{ packageName=com.google.android.gms }
+I/Icing   ( 2243): Internal init done: storage state 0
+D/GCM     ( 2352): GcmService start Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x4000010 cmp=com.google.android.gms/.gcm.GcmService (has extras) } android.net.conn.CONNECTIVITY_CHANGE
+D/AlarmManager( 2015): Target = com.google.android.gms creator = com.google.android.gms type = 3 action = com.google.android.intent.action.GCM_RECONNECT
+I/Icing   ( 2243): Post-init done
+D/AlarmManager( 2015): Target = com.google.android.gsf creator = com.google.android.gsf type = 1 action = null
+I/LoaderReceiver.onReceive(L:77)( 2818): receive a new action : android.net.conn.CONNECTIVITY_CHANGE
+D/LoaderReceiver.onReceive(L:80)( 2818): Connectivity change
+D/LoaderReceiver.startService(L:51)( 2818): startService
+I/UpdateService.onStartCommand(L:411)( 2818): onStartCommand flags:0 startId2
+I/UpdateService.onStartCommand(L:417)( 2818): get a start cmd : 102
+W/ContextImpl( 2818): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1479 android.content.ContextWrapper.startService:494 android.content.ContextWrapper.startService:494 com.jianui.update.LoaderReceiver.startService:54 com.jianui.update.LoaderReceiver.onReceive:81 
+I/UpdateService.onStartCommand(L:422)( 2818): Start Dealy Checking!
+I/UpdateService.reportInstallSucceed(L:702)( 2818): oldRomVersion = 2015.01.12.13.38
+D/Utils.getValue(L:221)( 2818): version:2015.01.12.13.38---------------index:0
+D/Utils.getValue(L:221)( 2818): version:2015.01.12.13.38---------------index:0
+D/Utils.getValue(L:221)( 2818): version:2015.01.12.13.38---------------index:5
+D/Utils.getValue(L:221)( 2818): version:2015.01.12.13.38---------------index:5
+D/Utils.getValue(L:221)( 2818): version:2015.01.12.13.38---------------index:8
+D/Utils.getValue(L:221)( 2818): version:2015.01.12.13.38---------------index:8
+I/ActivityManager( 2015): Start proc com.android.chrome for broadcast com.android.chrome/com.google.android.apps.chrome.precache.PrecacheServiceLauncher: pid=3032 uid=10061 gids={50061, 3003, 1028, 1015}
+W/MediaScanner( 2189): Error opening directory '/mnt/usbhost/', skipping: Permission denied.
+D/Utils.getValue(L:221)( 2818): version:2015.01.12.13.38---------------index:11
+D/Utils.getValue(L:221)( 2818): version:2015.01.12.13.38---------------index:11
+D/Utils.getValue(L:221)( 2818): version:2015.01.12.13.38---------------index:14
+D/Utils.getValue(L:221)( 2818): version:2015.01.12.13.38---------------index:14
+D/UpdateService.reportInstallSucceed(L:719)( 2818): not report install success
+I/ActivityManager( 2015): Killing 2551:com.google.android.configupdater/u0a2 (adj 15): empty #17
+D/WindowManager( 2015): mBootFastRuning = false shutdhownPending = false
+D/InputManager-JNI( 2015): handleInterceptActions: POLICY_FLAG_PASS_TO_USER.
+D/WindowManager( 2015): mBootFastRuning = false shutdhownPending = false
+D/InputManager-JNI( 2015): handleInterceptActions: POLICY_FLAG_PASS_TO_USER.
+D/ConnectivityService( 2015): handleInetConditionHoldEnd: net=1, condition=100, published condition=100
+D/AudioResampler( 1514): forcing AudioResampler quality to 4
+D/AlarmManager( 2015): Target = com.google.android.gsf creator = com.google.android.gsf type = 1 action = null
+V/audio_hw_primary( 1514): start_output_stream, line: 739
+D/audio_hw_primary( 1514): line:655,select_output_device,adev->mode:0, AUDIO_MODE_RINGTONE:1, AUDIO_MODE_NORMAL:0
+V/audio_hw_primary( 1514): huangxin------normal mode, ****LINE:657,FUNC:select_output_device, adev->out_device:2
+I/ActivityManager( 2015): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.teslacoilsw.launcher/com.android.launcher2.Launcher} from pid 2015
+I/ActivityManager( 2015): performance mode unset
+D/AlarmManager( 2015): Target = com.google.android.gsf creator = com.google.android.gsf type = 1 action = null
+V/codec_audio_pad( 1514): in normal mode, headset or speaker on,****LINE:74,FUNC:set_normal_path
+V/audio_hw_primary( 1514): normal mode , speaker,****LINE:659,FUNC:select_output_device
+V/audio_hw_primary( 1514): start_output_stream: card:0, port:0, rate:44100
+V/audio_hw_primary( 1514): do not use out resampler
+W/ContextImpl( 2015): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.am.ActivityStackSupervisor.startActivityLocked:1118 com.android.server.am.ActivityStackSupervisor.startActivityMayWait:744 com.android.server.am.ActivityManagerService.startActivityAsUser:3135 android.app.ContextImpl.startActivityAsUser:1048 
+I/ActivityManager( 2015): Killing 2228:com.android.printspooler/u0a54 (adj 15): empty #17
+V/AlarmClock( 2773): berrytao,action:android.intent.action.TIME_SET
+V/AlarmClock( 2773): No next alarm
+V/AlarmClock( 2773): AlarmInitReceiver finished
+D/WindowManager( 2015): setSystemUiVisibility start color:0 attrs:WM.LayoutParams{(0,0)(fillxfill) sim=#120 ty=1 fl=#d910100 statusBarColor=0 pfl=0x8 fmt=-2 wanim=0x10302a1 vsysui=0x700}
+D/WindowManager( 2015): setSystemUiVisibility ent
+V/CommandQ( 2080):  0 color:0
+V/CommandQ( 2080):  1 color:0
+D/AlarmManager( 2015): Target = com.google.android.calendar creator = com.google.android.calendar type = 1 action = com.google.android.calendar.APPWIDGET_SCHEDULED_UPDATE
+D/AlarmManager( 2015): Target = com.android.providers.calendar creator = com.android.providers.calendar type = 0 action = com.android.providers.calendar.SCHEDULE_ALARM
+D/WindowManager( 2015): setSystemUiVisibility start color:0 attrs:WM.LayoutParams{(0,0)(fillxfill) sim=#20 ty=1 fl=#d910100 statusBarColor=0 pfl=0x8 fmt=-2 wanim=0x10302a1 vsysui=0x700}
+D/WindowManager( 2015): setSystemUiVisibility ent
+V/CommandQ( 2080):  0 color:0
+V/CommandQ( 2080):  1 color:0
+D/BluetoothAdapter( 2080): 1103087432: getState() :  mService = null. Returning STATE_OFF
+D/BluetoothAdapter( 2080): 1103087432: getState() :  mService = null. Returning STATE_OFF
+I/DownloadManager( 2189): Download 13 starting
+I/MediaStoreImporter( 2989): Update: incremental Added music: 0 Updated music: 0 Deleted music: 0 Created playlists: 0 Updated playlists: 0 Deleted playlists: 0 Inserted playlist items: 0 Deleted playlist items: 0 Removed orphaned playlist items: 0
+W/ActivityThread( 2189): ClassLoader.loadClass: The class loader returned by Thread.getContextClassLoader() may fail for processes that host multiple applications. You should explicitly specify a context class loader. For example: Thread.setContextClassLoader(getClass().getClassLoader());
+I/ActivityManager( 2015): Timeline: Activity_windows_visible id: com.teslacoilsw.launcher time:30369
+W/DownloadManager( 2189): Aborting request for download 13: Unhandled HTTP response: 404 Not Found
+I/DownloadManager( 2189): Download 13 finished with status 404
+I/Icing   ( 2243): Indexing F8C85F8A38278E547D357662806D9E8B180D60D1 from com.google.android.music
+D/PermissionCache( 1511): checking android.permission.READ_FRAME_BUFFER for uid=10011 => granted (467 us)
+D/BluetoothAdapter( 2080): 1103087432: getState() :  mService = null. Returning STATE_OFF
+D/BluetoothAdapter( 2080): 1103087432: getState() :  mService = null. Returning STATE_OFF
+D/DateView( 2080): sss = August 24
+D/DateView( 2080): ss = Mon
+D/SizeAdaptiveLayout( 2080): com.android.internal.widget.SizeAdaptiveLayout{423ef478 V.E..... ......I. 0,0-0,0 #7f070058 app:id/adaptive}child view android.widget.LinearLayout{4188ae90 G.E..... ......I. 0,0-0,0 #10202de android:id/status_bar_latest_event_content} measured out of bounds at 120px clamped to 128px
+D/SizeAdaptiveLayout( 2080): com.android.internal.widget.SizeAdaptiveLayout{41e392c8 V.E..... ......I. 0,0-0,0 #7f070058 app:id/adaptive}child view android.widget.LinearLayout{41c339f0 G.E..... ......I. 0,0-0,0 #10202de android:id/status_bar_latest_event_content} measured out of bounds at 120px clamped to 128px
+D/SizeAdaptiveLayout( 2080): com.android.internal.widget.SizeAdaptiveLayout{41ce6818 V.E..... ......ID 0,0-1040,128 #7f070058 app:id/adaptive}child view android.widget.LinearLayout{41cef388 V.E..... ......ID 0,0-1040,120 #10202de android:id/status_bar_latest_event_content} measured out of bounds at 120px clamped to 128px
+D/SizeAdaptiveLayout( 2080): com.android.internal.widget.SizeAdaptiveLayout{423ef478 V.E..... ......I. 0,0-0,0 #7f070058 app:id/adaptive}child view android.widget.LinearLayout{4188ae90 G.E..... ......I. 0,0-0,0 #10202de android:id/status_bar_latest_event_content} measured out of bounds at 120px clamped to 128px
+D/SizeAdaptiveLayout( 2080): com.android.internal.widget.SizeAdaptiveLayout{41e392c8 V.E..... ......I. 0,0-0,0 #7f070058 app:id/adaptive}child view android.widget.LinearLayout{41c339f0 G.E..... ......I. 0,0-0,0 #10202de android:id/status_bar_latest_event_content} measured out of bounds at 120px clamped to 128px
+D/SizeAdaptiveLayout( 2080): com.android.internal.widget.SizeAdaptiveLayout{41ce6818 V.E..... ......ID 0,0-1040,128 #7f070058 app:id/adaptive}child view android.widget.LinearLayout{41cef388 V.E..... ......ID 0,0-1040,120 #10202de android:id/status_bar_latest_event_content} measured out of bounds at 120px clamped to 128px
+D/SizeAdaptiveLayout( 2080): com.android.internal.widget.SizeAdaptiveLayout{423ef478 V.E..... ......I. 0,0-0,0 #7f070058 app:id/adaptive}child view android.widget.LinearLayout{4188ae90 G.E..... ......I. 0,0-0,0 #10202de android:id/status_bar_latest_event_content} measured out of bounds at 120px clamped to 128px
+D/SizeAdaptiveLayout( 2080): com.android.internal.widget.SizeAdaptiveLayout{41e392c8 V.E..... ......I. 0,0-0,0 #7f070058 app:id/adaptive}child view android.widget.LinearLayout{41c339f0 G.E..... ......I. 0,0-0,0 #10202de android:id/status_bar_latest_event_content} measured out of bounds at 120px clamped to 128px
+D/SizeAdaptiveLayout( 2080): com.android.internal.widget.SizeAdaptiveLayout{41ce6818 V.E..... ......ID 0,0-1040,128 #7f070058 app:id/adaptive}child view android.widget.LinearLayout{41cef388 V.E..... ......ID 0,0-1040,120 #10202de android:id/status_bar_latest_event_content} measured out of bounds at 120px clamped to 128px
+D/SizeAdaptiveLayout( 2080): com.android.internal.widget.SizeAdaptiveLayout{423ef478 V.E..... ......I. 0,0-0,0 #7f070058 app:id/adaptive}child view android.widget.LinearLayout{4188ae90 G.E..... ......I. 0,0-0,0 #10202de android:id/status_bar_latest_event_content} measured out of bounds at 120px clamped to 128px
+D/SizeAdaptiveLayout( 2080): com.android.internal.widget.SizeAdaptiveLayout{41e392c8 V.E..... ......I. 0,0-0,0 #7f070058 app:id/adaptive}child view android.widget.LinearLayout{41c339f0 G.E..... ......I. 0,0-0,0 #10202de android:id/status_bar_latest_event_content} measured out of bounds at 120px clamped to 128px
+D/SizeAdaptiveLayout( 2080): com.android.internal.widget.SizeAdaptiveLayout{41ce6818 V.E..... ......ID 0,0-1040,128 #7f070058 app:id/adaptive}child view android.widget.LinearLayout{41cef388 V.E..... ......ID 0,0-1040,120 #10202de android:id/status_bar_latest_event_content} measured out of bounds at 120px clamped to 128px
+D/SizeAdaptiveLayout( 2080): com.android.internal.widget.SizeAdaptiveLayout{423ef478 V.E..... ......I. 0,0-0,0 #7f070058 app:id/adaptive}child view android.widget.LinearLayout{4188ae90 G.E..... ......I. 0,0-0,0 #10202de android:id/status_bar_latest_event_content} measured out of bounds at 120px clamped to 128px
+D/SizeAdaptiveLayout( 2080): com.android.internal.widget.SizeAdaptiveLayout{41e392c8 V.E..... ......I. 0,0-0,0 #7f070058 app:id/adaptive}child view android.widget.LinearLayout{41c339f0 G.E..... ......I. 0,0-0,0 #10202de android:id/status_bar_latest_event_content} measured out of bounds at 120px clamped to 128px
+D/SizeAdaptiveLayout( 2080): com.android.internal.widget.SizeAdaptiveLayout{41ce6818 V.E..... ......ID 0,0-1040,128 #7f070058 app:id/adaptive}child view android.widget.LinearLayout{41cef388 V.E..... ......ID 0,0-1040,120 #10202de android:id/status_bar_latest_event_content} measured out of bounds at 120px clamped to 128px
+D/SizeAdaptiveLayout( 2080): com.android.internal.widget.SizeAdaptiveLayout{423ef478 V.E..... ......I. 0,0-0,0 #7f070058 app:id/adaptive}child view android.widget.LinearLayout{4188ae90 G.E..... ......I. 0,0-0,0 #10202de android:id/status_bar_latest_event_content} measured out of bounds at 120px clamped to 128px
+D/SizeAdaptiveLayout( 2080): com.android.internal.widget.SizeAdaptiveLayout{41e392c8 V.E..... ......I. 0,0-0,0 #7f070058 app:id/adaptive}child view android.widget.LinearLayout{41c339f0 G.E..... ......I. 0,0-0,0 #10202de android:id/status_bar_latest_event_content} measured out of bounds at 120px clamped to 128px
+D/SizeAdaptiveLayout( 2080): com.android.internal.widget.SizeAdaptiveLayout{41ce6818 V.E..... ......ID 0,0-1040,128 #7f070058 app:id/adaptive}child view android.widget.LinearLayout{41cef388 V.E..... ......ID 0,0-1040,120 #10202de android:id/status_bar_latest_event_content} measured out of bounds at 120px clamped to 128px
+D/WindowManager( 2015): setSystemUiVisibility start color:0 attrs:WM.LayoutParams{(0,0)(fillxfill) gr=#37 sim=#10 ty=2000 fl=#1860040 statusBarColor=0 fmt=-3}
+D/WindowManager( 2015): setSystemUiVisibility ent
+V/CommandQ( 2080):  0 color:0
+I/Icing   ( 2243): Indexing done F8C85F8A38278E547D357662806D9E8B180D60D1
+D/SizeAdaptiveLayout( 2080): com.android.internal.widget.SizeAdaptiveLayout{423ef478 V.E..... ......I. 0,0-0,0 #7f070058 app:id/adaptive}child view android.widget.LinearLayout{4188ae90 G.E..... ......I. 0,0-0,0 #10202de android:id/status_bar_latest_event_content} measured out of bounds at 120px clamped to 128px
+D/SizeAdaptiveLayout( 2080): com.android.internal.widget.SizeAdaptiveLayout{41e392c8 V.E..... ......I. 0,0-0,0 #7f070058 app:id/adaptive}child view android.widget.LinearLayout{41c339f0 G.E..... ......I. 0,0-0,0 #10202de android:id/status_bar_latest_event_content} measured out of bounds at 120px clamped to 128px
+D/SizeAdaptiveLayout( 2080): com.android.internal.widget.SizeAdaptiveLayout{41ce6818 V.E..... ......ID 0,0-1040,128 #7f070058 app:id/adaptive}child view android.widget.LinearLayout{41cef388 V.E..... ......ID 0,0-1040,120 #10202de android:id/status_bar_latest_event_content} measured out of bounds at 120px clamped to 128px
+D/SizeAdaptiveLayout( 2080): com.android.internal.widget.SizeAdaptiveLayout{423ef478 V.E..... ......I. 0,0-0,0 #7f070058 app:id/adaptive}child view android.widget.LinearLayout{4188ae90 G.E..... ......I. 0,0-0,0 #10202de android:id/status_bar_latest_event_content} measured out of bounds at 120px clamped to 128px
+D/SizeAdaptiveLayout( 2080): com.android.internal.widget.SizeAdaptiveLayout{41e392c8 V.E..... ......I. 0,0-0,0 #7f070058 app:id/adaptive}child view android.widget.LinearLayout{41c339f0 G.E..... ......I. 0,0-0,0 #10202de android:id/status_bar_latest_event_content} measured out of bounds at 120px clamped to 128px
+D/SizeAdaptiveLayout( 2080): com.android.internal.widget.SizeAdaptiveLayout{41ce6818 V.E..... ......ID 0,0-1040,128 #7f070058 app:id/adaptive}child view android.widget.LinearLayout{41cef388 V.E..... ......ID 0,0-1040,120 #10202de android:id/status_bar_latest_event_content} measured out of bounds at 120px clamped to 128px
+D/SizeAdaptiveLayout( 2080): com.android.internal.widget.SizeAdaptiveLayout{423ef478 V.E..... ......I. 0,0-0,0 #7f070058 app:id/adaptive}child view android.widget.LinearLayout{4188ae90 G.E..... ......I. 0,0-0,0 #10202de android:id/status_bar_latest_event_content} measured out of bounds at 120px clamped to 128px
+D/SizeAdaptiveLayout( 2080): com.android.internal.widget.SizeAdaptiveLayout{41e392c8 V.E..... ......I. 0,0-0,0 #7f070058 app:id/adaptive}child view android.widget.LinearLayout{41c339f0 G.E..... ......I. 0,0-0,0 #10202de android:id/status_bar_latest_event_content} measured out of bounds at 120px clamped to 128px
+D/SizeAdaptiveLayout( 2080): com.android.internal.widget.SizeAdaptiveLayout{41ce6818 V.E..... ......ID 0,0-1040,128 #7f070058 app:id/adaptive}child view android.widget.LinearLayout{41cef388 V.E..... ......ID 0,0-1040,120 #10202de android:id/status_bar_latest_event_content} measured out of bounds at 120px clamped to 128px
+D/SizeAdaptiveLayout( 2080): com.android.internal.widget.SizeAdaptiveLayout{423ef478 V.E..... ......I. 0,0-0,0 #7f070058 app:id/adaptive}child view android.widget.LinearLayout{4188ae90 G.E..... ......I. 0,0-0,0 #10202de android:id/status_bar_latest_event_content} measured out of bounds at 120px clamped to 128px
+D/SizeAdaptiveLayout( 2080): com.android.internal.widget.SizeAdaptiveLayout{41e392c8 V.E..... ......I. 0,0-0,0 #7f070058 app:id/adaptive}child view android.widget.LinearLayout{41c339f0 G.E..... ......I. 0,0-0,0 #10202de android:id/status_bar_latest_event_content} measured out of bounds at 120px clamped to 128px
+D/SizeAdaptiveLayout( 2080): com.android.internal.widget.SizeAdaptiveLayout{41ce6818 V.E..... ......ID 0,0-1040,128 #7f070058 app:id/adaptive}child view android.widget.LinearLayout{41cef388 V.E..... ......ID 0,0-1040,120 #10202de android:id/status_bar_latest_event_content} measured out of bounds at 120px clamped to 128px
+V/CommandQ( 2080):  1 color:0
+I/GAV2    ( 2692): Thread[GAThread,5,main]: No campaign data found.
+I/dalvikvm( 2080): Total arena pages for JIT: 11
+W/MediaScanner( 2189): Error opening directory '/mnt/usbhost/', skipping: Permission denied.
+I/MediaStoreImporter( 2989): Update: incremental Added music: 0 Updated music: 0 Deleted music: 0 Created playlists: 0 Updated playlists: 0 Deleted playlists: 0 Inserted playlist items: 0 Deleted playlist items: 0 Removed orphaned playlist items: 0
+D/audio_hw_primary( 1514): out_standby
+D/AlertService( 2717): Beginning updateAlertNotification
+D/AlertService( 2717): No fired or scheduled alerts
+D/AlertService( 2717): Scheduling next alarm with AlarmScheduler. sEventReminderReceived: null
+D/AlarmScheduler( 2717): No events found starting within 1 week.
+W/MediaScanner( 2189): Error opening directory '/mnt/usbhost/', skipping: Permission denied.
+I/MediaStoreImporter( 2989): Update: incremental Added music: 0 Updated music: 0 Deleted music: 0 Created playlists: 0 Updated playlists: 0 Deleted playlists: 0 Inserted playlist items: 0 Deleted playlist items: 0 Removed orphaned playlist items: 0
+W/ContextImpl( 2989): Implicit intents with startService are not safe: Intent { act=com.google.android.music.NETWORK_MONITOR_SERVICE } android.content.ContextWrapper.bindService:517 com.google.android.music.utils.SafeServiceConnection$ServiceConnectionImp.bindService:98 com.google.android.music.utils.SafeServiceConnection.bindService:259 
+I/MusicLeanback( 2989): Conditions not met for autocaching.
+I/MusicLeanback( 2989): Stop autocaching.
+W/ContextImpl( 2989): Implicit intents with startService are not safe: Intent { act=com.google.android.music.NETWORK_MONITOR_SERVICE } android.content.ContextWrapper.bindService:517 com.google.android.music.utils.SafeServiceConnection$ServiceConnectionImp.bindService:98 com.google.android.music.utils.SafeServiceConnection.bindService:259 
+D/CacheService( 2989): onCreate
+D/CacheService( 2989): onBind
+D/CacheService( 2989): onDestroy
+V/audio_hw_primary( 1514): start_output_stream, line: 739
+D/audio_hw_primary( 1514): line:655,select_output_device,adev->mode:0, AUDIO_MODE_RINGTONE:1, AUDIO_MODE_NORMAL:0
+V/audio_hw_primary( 1514): huangxin------normal mode, ****LINE:657,FUNC:select_output_device, adev->out_device:2
+V/codec_audio_pad( 1514): in normal mode, headset or speaker on,****LINE:74,FUNC:set_normal_path
+V/audio_hw_primary( 1514): normal mode , speaker,****LINE:659,FUNC:select_output_device
+V/audio_hw_primary( 1514): start_output_stream: card:0, port:0, rate:44100
+V/audio_hw_primary( 1514): do not use out resampler
+I/ActivityManager( 2015): START u0 {act=android.settings.SETTINGS flg=0x14000000 cmp=com.android.settings/.Settings} from pid 2080
+I/ActivityManager( 2015): performance mode unset
+W/ContextImpl( 2015): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.am.ActivityStackSupervisor.startActivityLocked:1118 com.android.server.am.ActivityStackSupervisor.startActivityMayWait:744 com.android.server.am.ActivityManagerService.startActivityAsUser:3135 android.app.ActivityManagerNative.onTransact:161 
+D/CaptivePortalTracker( 2015): DelayedCaptiveCheckState{ when=-12ms what=2 arg1=1 target=com.android.internal.util.StateMachine$SmHandler }
+D/ConnectivityService( 2015): setProvNotificationVisible: E visible=false networkType=1 extraInfo=null url=null
+D/CaptivePortalTracker( 2015): Checking http://173.194.113.201/generate_204
+D/BluetoothAdapter( 2148): 1099426120: getState() :  mService = null. Returning STATE_OFF
+D/WindowManager( 2015): setSystemUiVisibility start color:0 attrs:WM.LayoutParams{(0,0)(fillxfill) sim=#20 ty=3 fl=#1830118 statusBarColor=0 pfl=0x19 wanim=0x10302a1}
+D/WindowManager( 2015): setSystemUiVisibility ent
+V/CommandQ( 2080):  0 color:0
+W/ActivityThread( 2015): ClassLoader.loadClass: The class loader returned by Thread.getContextClassLoader() may fail for processes that host multiple applications. You should explicitly specify a context class loader. For example: Thread.setContextClassLoader(getClass().getClassLoader());
+D/BluetoothAdapter( 2080): 1103087432: getState() :  mService = null. Returning STATE_OFF
+D/BluetoothAdapter( 2080): 1103087432: getState() :  mService = null. Returning STATE_OFF
+V/CommandQ( 2080):  1 color:0
+D/CaptivePortalTracker( 2015): Don't send network conditions - lacking user consent.
+D/CaptivePortalTracker( 2015): isCaptivePortal: ret=false rspCode=204
+D/CaptivePortalTracker( 2015): Not captive network NetworkInfo: type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: "Great-Wi-Fi", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false
+D/CaptivePortalTracker( 2015): notifyPortalCheckCompleted: captive=false ni=NetworkInfo: type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: "Great-Wi-Fi", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false
+D/ConnectivityService( 2015): captivePortalCheckCompleted: ni=NetworkInfo: type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: "Great-Wi-Fi", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false captive=false
+D/BluetoothAdapter( 2080): 1103087432: getState() :  mService = null. Returning STATE_OFF
+D/BluetoothAdapter( 2080): 1103087432: getState() :  mService = null. Returning STATE_OFF
+D/libEGL  ( 2148): loaded /vendor/lib/egl/libEGL_POWERVR_ROGUE.so
+D/libEGL  ( 2148): loaded /vendor/lib/egl/libGLESv1_CM_POWERVR_ROGUE.so
+E/IMGSRV  ( 2148): :0: OGLES3LIBNAME is /system/vendor/lib/egl/libGLESv2_POWERVR_ROGUE.so
+D/libEGL  ( 2148): loaded /vendor/lib/egl/libGLESv2_POWERVR_ROGUE.so
+D/OpenGLRenderer( 2148): Enabling debug mode 0
+D/WifiService( 2015): setWifiEnabled: true pid=2148, uid=1000
+D/BluetoothAdapter( 2148): 1099426120: getState() :  mService = null. Returning STATE_OFF
+I/ActivityManager( 2015): Displayed com.android.settings/.Settings: +1s6ms
+I/ActivityManager( 2015): Timeline: Activity_windows_visible id: com.android.settings time:36357
+I/ActivityManager( 2015): Waited long enough for: ServiceRecord{41f20c60 u0 com.google.android.gms/.gcm.GcmService}
+I/ActivityManager( 2015): Waited long enough for: ServiceRecord{41c63cb8 u0 com.softwinner.fireplayer/com.softwinner.service.SoftWinnerService}
+I/NotificationService( 2015): cancelToast pkg=com.android.settings callback=android.app.ITransientNotification$Stub$Proxy@41b4e9d0
+I/NotificationService( 2015): cancelToast pkg=com.android.settings callback=android.app.ITransientNotification$Stub$Proxy@41c42098
+I/NotificationService( 2015): cancelToast pkg=com.android.settings callback=android.app.ITransientNotification$Stub$Proxy@41eddb78
+I/NotificationService( 2015): cancelToast pkg=com.android.settings callback=android.app.ITransientNotification$Stub$Proxy@41c40638
+W/Settings( 2148): Setting bugreport_in_power_menu has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+E/Cryptfs ( 1506): not running with encryption, aborting
+D/PermissionCache( 1511): checking android.permission.HARDWARE_TEST for uid=1000 => granted (801 us)
+W/Settings( 2148): Setting bugreport_in_power_menu has moved from android.provider.Settings.System to android.provider.Settings.Global
+W/Settings( 2148): Setting bugreport_in_power_menu has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+E/Cryptfs ( 1506): not running with encryption, aborting
+W/Settings( 2148): Setting bugreport_in_power_menu has moved from android.provider.Settings.System to android.provider.Settings.Global
+I/ActivityManager( 2015): Waited long enough for: ServiceRecord{419c38c0 u0 com.google.android.calendar/com.android.calendar.alerts.InitAlarmsService}
+I/ActivityManager( 2015): Waited long enough for: ServiceRecord{41cdb480 u0 com.jianui.update/.UpdateService}
+D/alertcontrol( 2148): alertcontrol-------2--2131820740
+D/TEST    ( 2148): dialogs=com.jui.app.AlertDialog@41d9e768
+D/alertDialog jui( 2148): creat mCancelable-------true
+W/InputMethodManagerService( 2015): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@41ca21a8 attribute=null, token = android.os.BinderProxy@41b89358
+D/PhoneStatusBar( 2080): Owenli notification total:4, current:0, pkg:com.android.systemui, is clearable:false
+D/PhoneStatusBar( 2080): Owenli notification total:4, current:1, pkg:com.android.systemui, is clearable:false
+D/PhoneStatusBar( 2080): Owenli notification total:4, current:2, pkg:android, is clearable:false
+D/PhoneStatusBar( 2080): Owenli notification total:4, current:3, pkg:android, is clearable:false
+D/WindowManager( 2015): mBootFastRuning = false shutdhownPending = false
+D/InputManager-JNI( 2015): handleInterceptActions: POLICY_FLAG_PASS_TO_USER.
+D/WindowManager( 2015): mBootFastRuning = false shutdhownPending = false
+D/InputManager-JNI( 2015): handleInterceptActions: POLICY_FLAG_PASS_TO_USER.
+I/ActivityManager( 2015): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.teslacoilsw.launcher/com.android.launcher2.Launcher} from pid 2015
+I/ActivityManager( 2015): performance mode unset
+W/ContextImpl( 2015): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1123 com.android.server.am.ActivityStackSupervisor.startActivityLocked:1118 com.android.server.am.ActivityStackSupervisor.startActivityMayWait:744 com.android.server.am.ActivityManagerService.startActivityAsUser:3135 android.app.ContextImpl.startActivityAsUser:1048 
+I/dalvikvm( 2015): Jit: resizing JitTable from 4096 to 8192
+D/WindowManager( 2015): setSystemUiVisibility start color:0 attrs:WM.LayoutParams{(0,0)(fillxfill) sim=#120 ty=1 fl=#d910100 statusBarColor=0 pfl=0x8 fmt=-2 wanim=0x10302a1 vsysui=0x700}
+V/CommandQ( 2080):  0 color:0
+D/WindowManager( 2015): setSystemUiVisibility ent
+V/CommandQ( 2080):  1 color:0
+D/WindowManager( 2015): setSystemUiVisibility start color:0 attrs:WM.LayoutParams{(0,0)(fillxfill) sim=#20 ty=1 fl=#d910100 statusBarColor=0 pfl=0x8 fmt=-2 wanim=0x10302a1 vsysui=0x700}
+D/WindowManager( 2015): setSystemUiVisibility ent
+V/CommandQ( 2080):  0 color:0
+V/CommandQ( 2080):  1 color:0
+D/BluetoothAdapter( 2080): 1103087432: getState() :  mService = null. Returning STATE_OFF
+D/BluetoothAdapter( 2080): 1103087432: getState() :  mService = null. Returning STATE_OFF
+I/ActivityManager( 2015): Timeline: Activity_windows_visible id: com.teslacoilsw.launcher time:46352
+D/audio_hw_primary( 1514): out_standby
+D/InitAlarmsService( 2717): Clearing and rescheduling alarms.
+D/AlarmManager( 2015): Target = com.android.providers.calendar creator = com.android.providers.calendar type = 2 action = com.android.providers.calendar.intent.CalendarProvider2
+D/AlarmManager( 2015): Target = com.android.providers.calendar creator = com.android.providers.calendar type = 0 action = com.android.providers.calendar.SCHEDULE_ALARM
+I/Icing   ( 2243): Indexing F8C85F8A38278E547D357662806D9E8B180D60D1 from com.google.android.music
+I/Icing   ( 2243): Indexing done F8C85F8A38278E547D357662806D9E8B180D60D1
+V/        ( 2080): result:15:42
+V/        ( 2080): result:15:42
+I/System.out( 2473): passive
+I/System.out( 2473): gps
+I/System.out( 2473): network
+I/SoftWinnerService( 2473): post http error
+W/System.err( 2473): java.net.UnknownHostException: Unable to resolve host "push.softwinners.com": No address associated with hostname
+W/System.err( 2473): 	at java.net.InetAddress.lookupHostByName(InetAddress.java:428)
+W/System.err( 2473): 	at java.net.InetAddress.getAllByNameImpl(InetAddress.java:240)
+W/System.err( 2473): 	at java.net.InetAddress.getAllByName(InetAddress.java:214)
+W/System.err( 2473): 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 2473): 	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 2473): 	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 2473): 	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 2473): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 2473): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 2473): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 2473): 	at com.softwinner.service.MessagePushService.getServerMessage(MessagePushService.java:618)
+W/System.err( 2473): 	at com.softwinner.service.MessagePushService.MessageProcess(MessagePushService.java:216)
+W/System.err( 2473): 	at com.softwinner.service.MessagePushService.access$100(MessagePushService.java:69)
+W/System.err( 2473): 	at com.softwinner.service.MessagePushService$2.run(MessagePushService.java:327)
+W/System.err( 2473): 	at android.os.Handler.handleCallback(Handler.java:733)
+W/System.err( 2473): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+W/System.err( 2473): 	at android.os.Looper.loop(Looper.java:136)
+W/System.err( 2473): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+W/System.err( 2473): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 2473): 	at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 2473): 	at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:61)
+W/System.err( 2473): 	at java.net.InetAddress.lookupHostByName(InetAddress.java:409)
+W/System.err( 2473): 	... 17 more
+W/System.err( 2473): Caused by: libcore.io.ErrnoException: getaddrinfo failed: EINVAL (Invalid argument)
+W/System.err( 2473): 	... 20 more
+D/BluetoothManagerService( 2015): Message: 20
+D/BluetoothManagerService( 2015): Added callback: android.bluetooth.IBluetoothManagerCallback$Stub$Proxy@41a6e018:true
+I/System.out( 2473): passive
+I/System.out( 2473): gps
+I/System.out( 2473): network
+W/System.err( 2473): java.net.UnknownHostException: Unable to resolve host "push.softwinners.com": No address associated with hostname
+W/System.err( 2473): 	at java.net.InetAddress.lookupHostByName(InetAddress.java:428)
+W/System.err( 2473): 	at java.net.InetAddress.getAllByNameImpl(InetAddress.java:240)
+W/System.err( 2473): 	at java.net.InetAddress.getAllByName(InetAddress.java:214)
+W/System.err( 2473): 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 2473): 	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 2473): 	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 2473): 	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 2473): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 2473): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 2473): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 2473): 	at com.softwinner.service.MessagePushService.postDevInfoToServer(MessagePushService.java:454)
+W/System.err( 2473): 	at com.softwinner.service.MessagePushService.access$000(MessagePushService.java:69)
+W/System.err( 2473): 	at com.softwinner.service.MessagePushService$1.run(MessagePushService.java:175)
+W/System.err( 2473): 	at java.lang.Thread.run(Thread.java:841)
+W/System.err( 2473): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 2473): 	at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 2473): 	at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:61)
+W/System.err( 2473): 	at java.net.InetAddress.lookupHostByName(InetAddress.java:409)
+W/System.err( 2473): 	... 13 more
+W/System.err( 2473): Caused by: libcore.io.ErrnoException: getaddrinfo failed: EINVAL (Invalid argument)
+W/System.err( 2473): 	... 16 more
+D/ConnectivityService( 2015): Sampling interval elapsed, updating statistics ..
+D/ConnectivityService( 2015): Done.
+D/ConnectivityService( 2015): Setting timer for 720seconds
+D/AlarmManager( 2015): Target = android creator = android type = 3 action = android.net.ConnectivityService.action.PKT_CNT_SAMPLE_INTERVAL_ELAPSED
+I/System.out( 2473): passive
+I/System.out( 2473): gps
+I/System.out( 2473): network
+I/SoftWinnerService( 2473): post http error
+W/System.err( 2473): java.net.UnknownHostException: Unable to resolve host "push.softwinners.com": No address associated with hostname
+W/System.err( 2473): 	at java.net.InetAddress.lookupHostByName(InetAddress.java:428)
+W/System.err( 2473): 	at java.net.InetAddress.getAllByNameImpl(InetAddress.java:240)
+W/System.err( 2473): 	at java.net.InetAddress.getAllByName(InetAddress.java:214)
+W/System.err( 2473): 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 2473): 	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 2473): 	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 2473): 	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 2473): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 2473): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 2473): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 2473): 	at com.softwinner.service.MessagePushService.getServerMessage(MessagePushService.java:618)
+W/System.err( 2473): 	at com.softwinner.service.MessagePushService.MessageProcess(MessagePushService.java:216)
+W/System.err( 2473): 	at com.softwinner.service.MessagePushService.access$100(MessagePushService.java:69)
+W/System.err( 2473): 	at com.softwinner.service.MessagePushService$2.run(MessagePushService.java:327)
+W/System.err( 2473): 	at android.os.Handler.handleCallback(Handler.java:733)
+W/System.err( 2473): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+W/System.err( 2473): 	at android.os.Looper.loop(Looper.java:136)
+W/System.err( 2473): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+W/System.err( 2473): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 2473): 	at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 2473): 	at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:61)
+W/System.err( 2473): 	at java.net.InetAddress.lookupHostByName(InetAddress.java:409)
+W/System.err( 2473): 	... 17 more
+W/System.err( 2473): Caused by: libcore.io.ErrnoException: getaddrinfo failed: EINVAL (Invalid argument)
+W/System.err( 2473): 	... 20 more

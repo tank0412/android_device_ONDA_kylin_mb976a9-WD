@@ -2,7 +2,8 @@
 # system.prop for kylin_mb976a9
 #
 
-ro.carrier=wifi-only
+
+ro.carrier=unknown
 ro.opengles.version=196608
 wifi.interface=wlan0
 qemu.hw.mainkeys=0
@@ -49,7 +50,6 @@ ro.sf.lcd_density=320
 ro.property.fontScale=1.0
 ro.sf.hwrotation=0
 ro.product.firmware=b0.0.1_v4
-ro.sys.bootfast=true
 persist.sys.timezone=Europe/Moscow
 persist.sys.country=US
 persist.sys.language=en
@@ -64,6 +64,19 @@ ro.product.rom.name=CM for V989
 ro.setupwizard.mode=OPTIONAL
 ro.com.google.gmsversion=4.4_r3
 persist.sys.dalvik.vm.lib=libdvm.so
-dalvik.vm.dexopt-flags=m=y
-net.bt.name=V989
+dalvik.vm.verify-bytecode=false
+dalvik.vm.dexopt-flags=v=n,o=v,m=y
+net.bt.name=Android
+#Render UI with GPU
+debug.sf.hw=1
+debug.performance.tuning=1
+debug.enabletr=false
+video.accelerate.hw=1
+debug.overlayui.enable=1
+debug.egl.hw=1
+hw3d.force=1
+persist.sys.ui.hw=1
+ro.sf.compbypass.enable=1
+debug.egl.swapinterval=0
+#Old stuff
 dalvik.vm.stack-trace-file=/data/anr/traces.txt
