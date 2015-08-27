@@ -15,6 +15,12 @@ TARGET_CPU_SMP := true
 ARCH_ARM_HAVE_TLS_REGISTER := true
 TARGET_USES_ION := true
 TARGET_USES_NEON_OPTIMIZATION := true
+TARGET_GLOBAL_CFLAGS += -mtune=cortex-a15 -mfpu=neon -mfloat-abi=softfp
+TARGET_GLOBAL_CPPFLAGS += -mtune=cortex-a15 -mfpu=neon -mfloat-abi=softfp
+ENABLE_WEBGL := true
+BOARD_EGL_NEEDS_LEGACY_FB := true
+# Workaround for no SYNC support
+TARGET_RUNNING_WITHOUT_SYNC_FRAMEWORK := true
 
 TARGET_BOOTLOADER_BOARD_NAME := exdroid
 
