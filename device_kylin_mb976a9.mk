@@ -40,13 +40,13 @@ DEVICE_PACKAGE_OVERLAYS := \
 	$(LOCAL_PATH)/overlay
 #	$(DEVICE_PACKAGE_OVERLAYS)
 
-#PRODUCT_PACKAGES += \
-#	com.android.future.usb.accessory \
-#	libnetcmdiface \
-#	Stk \
-#	static_busybox \
-#	make_ext4fs \
-#	setup_fs
+PRODUCT_PACKAGES += \
+	com.android.future.usb.accessory \
+	libnetcmdiface \
+	Stk \
+	static_busybox \
+	make_ext4fs \
+	setup_fs
 
 # kylin-common
 #PRODUCT_PACKAGES += \
