@@ -155,6 +155,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/recovery/init.recovery.sun9i.rc:root/init.recovery.sun9i.rc \
 	$(LOCAL_PATH)/recovery/ueventd.sun9i.rc:root/ueventd.sun9i.rc \
 	$(LOCAL_PATH)/recovery/init.sun9i.usb.rc:root/init.sun9i.usb.rc
+	
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/recovery/init_partition.sh:root/sbin/init_partition.sh \
 	$(LOCAL_PATH)/recovery/Extra/busybox:root/sbin/busybox
