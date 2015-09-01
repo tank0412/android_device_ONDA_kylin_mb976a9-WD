@@ -24,7 +24,8 @@ TARGET_RUNNING_WITHOUT_SYNC_FRAMEWORK := true
 
 TARGET_BOOTLOADER_BOARD_NAME := exdroid
 
-BOARD_KERNEL_CMDLINE := 
+BOARD_KERNEL_CMDLINE := console=ttyS0,115200 root=/dev/mmcblk0p7 init=/init vmalloc=384M coherent_pool=8M cma_reserve=640M loglevel=4 partitions=bootloader@mmcblk0p2:env@mmcblk0p5:boot@mmcblk0p6:system@mmcblk0p7:data@mmcblk0p8:misc@mmcblk0p9:recovery@mmcblk0p10:cache@mmcblk0p11:metadata@mmcblk0p12:private@mmcblk0p13:UDISK@mmcblk0p1 boot_type=2 config_size=59044
+
 BOARD_KERNEL_BASE := 0x20000000
 BOARD_KERNEL_PAGESIZE := 2048
 
