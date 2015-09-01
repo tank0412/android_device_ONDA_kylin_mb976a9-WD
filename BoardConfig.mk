@@ -5,8 +5,7 @@ TARGET_ARCH := arm
 TARGET_NO_BOOTLOADER := true
 #TARGET_NO_KERNEL := true
 #BUILD_KERNEL_MODULES := false
-TARGET_NO_RECOVERY := true
-#TARGET_NO_RECOVERY := false
+TARGET_NO_RECOVERY := false
 TARGET_BOARD_PLATFORM := kylin
 TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 := armeabi
@@ -108,20 +107,20 @@ BOARD_SEPOLICY_UNION := \
 #	zygote.te
 
 #Recovery
-#SW_BOARD_TOUCH_RECOVERY := true
-#TARGET_RECOVERY_FSTAB = device/ONDA/kylin_mb976a9/recovery/fstab.kylin_mb976a
-#RECOVERY_FSTAB_VERSION = 2
+SW_BOARD_TOUCH_RECOVERY := true
+TARGET_RECOVERY_FSTAB = device/ONDA/kylin_mb976a9/recovery/fstab.kylin_mb976a
+RECOVERY_FSTAB_VERSION = 2
 
 #CWM
-#RECOVERY_SDCARD_ON_DATA := false
-#BOARD_USE_USB_MASS_STORAGE_SWITCH := true
-#BOARD_SDCARD_DEVICE_PRIMARY := /dev/block/by-name/UDISK  # /sdcard vfat /dev/block/by-name/UDISK
-#BOARD_HAS_SDCARD_INTERNAL := true
-#BOARD_SDCARD_DEVICE_INTERNAL := /dev/block/by-name/UDISK # /sdcard vfat /dev/block/by-name/UDISK
-#BOARD_SDEXT_DEVICE := /dev/block/mmcblk1p1	     	 # /sdext vfat /dev/block/mmcblk1p1
+RECOVERY_SDCARD_ON_DATA := false
+BOARD_USE_USB_MASS_STORAGE_SWITCH := true
+BOARD_SDCARD_DEVICE_PRIMARY := /dev/block/by-name/UDISK  # /sdcard vfat /dev/block/by-name/UDISK
+BOARD_HAS_SDCARD_INTERNAL := true
+BOARD_SDCARD_DEVICE_INTERNAL := /dev/block/by-name/UDISK # /sdcard vfat /dev/block/by-name/UDISK
+BOARD_SDEXT_DEVICE := /dev/block/mmcblk1p1	     	 # /sdext vfat /dev/block/mmcblk1p1
 
-#BOARD_CUSTOM_RECOVERY_KEYMAPPING := kylin_mb976a9/recovery_keys.c
-#BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_23x41.h\"
+BOARD_CUSTOM_RECOVERY_KEYMAPPING := kylin_mb976a9/recovery_keys.c
+BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_23x41.h\"
 
 PRODUCT_PROPERTY_OVERRIDES += \
 	persist.service.adb.enable=1 \
