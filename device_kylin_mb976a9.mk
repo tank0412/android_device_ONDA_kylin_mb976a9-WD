@@ -140,13 +140,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	ro.sys.cputype=UltraOcta-A80
 
 #Recovery
-PRODUCT_COPY_FILES += \
-    vendor/ONDA/kylin_mb976a9/recovery/nand.ko:root/nand.ko \
-    vendor/ONDA/kylin_mb976a9/recovery/sw-device.ko:root/sw-device.ko \
-    vendor/ONDA/kylin_mb976a9/recovery/disp.ko:root/disp.ko \
-    vendor/ONDA/kylin_mb976a9/recovery/lcd.ko:root/lcd.ko \
-    vendor/ONDA/kylin_mb976a9/recovery/hdcp.ko:root/hdcp.ko \
-    vendor/ONDA/kylin_mb976a9/recovery/gt9xxnew_ts.ko:root/gt9xxnew_ts.ko
+#PRODUCT_COPY_FILES += \
+#    vendor/ONDA/kylin_mb976a9/recovery/nand.ko:root/nand.ko \
+#    vendor/ONDA/kylin_mb976a9/recovery/sw-device.ko:root/sw-device.ko \
+#    vendor/ONDA/kylin_mb976a9/recovery/disp.ko:root/disp.ko \
+#    vendor/ONDA/kylin_mb976a9/recovery/lcd.ko:root/lcd.ko \
+#    vendor/ONDA/kylin_mb976a9/recovery/hdcp.ko:root/hdcp.ko \
+#    vendor/ONDA/kylin_mb976a9/recovery/gt9xxnew_ts.ko:root/gt9xxnew_ts.ko
 
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/recovery/charger:root/charger \
